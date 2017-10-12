@@ -1,0 +1,2612 @@
+2017-06-08 15:33:55 [-][-][-][error][yii\console\UnknownCommandException] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "migeate/create".' in E:\server\WWW\yii2shop\advanced\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 E:\server\WWW\yii2shop\advanced\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('migeate/create', Array)
+#1 E:\server\WWW\yii2shop\advanced\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('migeate/create', Array)
+#2 E:\server\WWW\yii2shop\advanced\vendor\yiisoft\yii2\base\Application.php(380): yii\console\Application->handleRequest(Object(yii\console\Request))
+#3 E:\server\WWW\yii2shop\advanced\yii(27): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\console\UnknownCommandException' with message 'Unknown command "migeate/create".' in E:\server\WWW\yii2shop\advanced\vendor\yiisoft\yii2\console\Application.php:183
+Stack trace:
+#0 E:\server\WWW\yii2shop\advanced\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('migeate/create', Array)
+#1 E:\server\WWW\yii2shop\advanced\vendor\yiisoft\yii2\base\Application.php(380): yii\console\Application->handleRequest(Object(yii\console\Request))
+#2 E:\server\WWW\yii2shop\advanced\yii(27): yii\base\Application->run()
+#3 {main}
+2017-06-08 15:33:54 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\Administrator\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'PC201702091939'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'DEVMGR_SHOW_DETAILS' => '1'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\Administrator'
+    'LOCALAPPDATA' => 'C:\\Users\\Administrator\\AppData\\Local'
+    'LOGONSERVER' => '\\\\PC201702091939'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;E:\\TortoiseSVN\\bin;E:\\server\\mysql\\bin;C:\\;rogram Files\\TortoiseGit\\bin;E:\\server\\安装软件\\SVN\\Git_lu_jin\\Git\\cmd;;E:\\server\\An_Zhuang\\SVN\\Git_lu_jin\\Git\\Git\\cmd;E:\\server\\An_Zhuang\\SVN\\svn_fu_wu_qi\\bin;E:\\server\\An_Zhuang\\redis\\windows\\redisbin64.rar.Win_lujing;E:\\server\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PHP_COMMAND' => 'php.exe'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_ARCHITEW6432' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 58 Stepping 9, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '3a09'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files (x86)'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\;E:\\server\\An_Zhuang\\SVN\\svn_fu_wu_qi\\PowerShellModules'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'PC201702091939'
+    'USERNAME' => 'Administrator'
+    'USERPROFILE' => 'C:\\Users\\Administrator'
+    'VISUALSVN_SERVER' => 'E:\\server\\An_Zhuang\\SVN\\svn_fu_wu_qi\\'
+    'windir' => 'C:\\Windows'
+    'windows_tracing_flags' => '3'
+    'windows_tracing_logfile' => 'C:\\BVTBin\\Tests\\installpackage\\csilogfile.log'
+    'YII_PATH' => 'E:\\server\\WWW\\yii2shop\\advanced\\'
+    'PHP_SELF' => 'E:\\server\\WWW\\yii2shop\\advanced\\yii'
+    'SCRIPT_NAME' => 'E:\\server\\WWW\\yii2shop\\advanced\\yii'
+    'SCRIPT_FILENAME' => 'E:\\server\\WWW\\yii2shop\\advanced\\yii'
+    'PATH_TRANSLATED' => 'E:\\server\\WWW\\yii2shop\\advanced\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1496907234.9185
+    'REQUEST_TIME' => 1496907234
+    'argv' => [
+        0 => 'E:\\server\\WWW\\yii2shop\\advanced\\yii'
+        1 => 'migeate/create'
+        2 => 'create_brand_table'
+    ]
+    'argc' => 3
+]
+2017-06-08 15:42:57 [-][-][-][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'yii2shop'' in E:\server\WWW\yii2shop\advanced\vendor\yiisoft\yii2\db\Connection.php:630
+Stack trace:
+#0 E:\server\WWW\yii2shop\advanced\vendor\yiisoft\yii2\db\Connection.php(630): PDO->__construct('mysql:host=loca...', 'root', 'admin', NULL)
+#1 E:\server\WWW\yii2shop\advanced\vendor\yiisoft\yii2\db\Connection.php(563): yii\db\Connection->createPdoInstance()
+#2 E:\server\WWW\yii2shop\advanced\vendor\yiisoft\yii2\db\Connection.php(896): yii\db\Connection->open()
+#3 E:\server\WWW\yii2shop\advanced\vendor\yiisoft\yii2\db\Connection.php(883): yii\db\Connection->getMasterPdo()
+#4 E:\server\WWW\yii2shop\advanced\vendor\yiisoft\yii2\db\Command.php(219): yii\db\Connection->getSlavePdo()
+#5 E:\server\WWW\yii2shop\advanced\vendor\yiisoft\yii2\db\Command.php(896): yii\db\Command->prepare(true)
+#6 E:\server\WWW\yii2shop\advanced\vendor\yiisoft\yii2\db\Command.php(362): yii\db\Command->queryInternal('fetchAll', NULL)
+#7 E:\server\WWW\yii2shop\advanced\vendor\yiisoft\yii2\db\mysql\Schema.php(199): yii\db\Command->queryAll()
+#8 E:\server\WWW\yii2shop\advanced\vendor\yiisoft\yii2\db\mysql\Schema.php(98): yii\db\mysql\Schema->findColumns(Object(yii\db\TableSchema))
+#9 E:\server\WWW\yii2shop\advanced\vendor\yiisoft\yii2\db\Schema.php(152): yii\db\mysql\Schema->loadTableSchema('migration')
+#10 E:\server\WWW\yii2shop\advanced\vendor\yiisoft\yii2\console\controllers\MigrateController.php(199): yii\db\Schema->getTableSchema('{{%migration}}', true)
+#11 E:\server\WWW\yii2shop\advanced\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(774): yii\console\controllers\MigrateController->getMigrationHistory(NULL)
+#12 E:\server\WWW\yii2shop\advanced\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(138): yii\console\controllers\BaseMigrateController->getNewMigrations()
+#13 [internal function]: yii\console\controllers\BaseMigrateController->actionUp(0)
+#14 E:\server\WWW\yii2shop\advanced\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#15 E:\server\WWW\yii2shop\advanced\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#16 E:\server\WWW\yii2shop\advanced\vendor\yiisoft\yii2\console\Controller.php(128): yii\base\Controller->runAction('', Array)
+#17 E:\server\WWW\yii2shop\advanced\vendor\yiisoft\yii2\base\Module.php(523): yii\console\Controller->runAction('', Array)
+#18 E:\server\WWW\yii2shop\advanced\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('migrate', Array)
+#19 E:\server\WWW\yii2shop\advanced\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('migrate', Array)
+#20 E:\server\WWW\yii2shop\advanced\vendor\yiisoft\yii2\base\Application.php(380): yii\console\Application->handleRequest(Object(yii\console\Request))
+#21 E:\server\WWW\yii2shop\advanced\yii(27): yii\base\Application->run()
+#22 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[HY000] [1049] Unknown database 'yii2shop'' in E:\server\WWW\yii2shop\advanced\vendor\yiisoft\yii2\db\Connection.php:568
+Stack trace:
+#0 E:\server\WWW\yii2shop\advanced\vendor\yiisoft\yii2\db\Connection.php(896): yii\db\Connection->open()
+#1 E:\server\WWW\yii2shop\advanced\vendor\yiisoft\yii2\db\Connection.php(883): yii\db\Connection->getMasterPdo()
+#2 E:\server\WWW\yii2shop\advanced\vendor\yiisoft\yii2\db\Command.php(219): yii\db\Connection->getSlavePdo()
+#3 E:\server\WWW\yii2shop\advanced\vendor\yiisoft\yii2\db\Command.php(896): yii\db\Command->prepare(true)
+#4 E:\server\WWW\yii2shop\advanced\vendor\yiisoft\yii2\db\Command.php(362): yii\db\Command->queryInternal('fetchAll', NULL)
+#5 E:\server\WWW\yii2shop\advanced\vendor\yiisoft\yii2\db\mysql\Schema.php(199): yii\db\Command->queryAll()
+#6 E:\server\WWW\yii2shop\advanced\vendor\yiisoft\yii2\db\mysql\Schema.php(98): yii\db\mysql\Schema->findColumns(Object(yii\db\TableSchema))
+#7 E:\server\WWW\yii2shop\advanced\vendor\yiisoft\yii2\db\Schema.php(152): yii\db\mysql\Schema->loadTableSchema('migration')
+#8 E:\server\WWW\yii2shop\advanced\vendor\yiisoft\yii2\console\controllers\MigrateController.php(199): yii\db\Schema->getTableSchema('{{%migration}}', true)
+#9 E:\server\WWW\yii2shop\advanced\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(774): yii\console\controllers\MigrateController->getMigrationHistory(NULL)
+#10 E:\server\WWW\yii2shop\advanced\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(138): yii\console\controllers\BaseMigrateController->getNewMigrations()
+#11 [internal function]: yii\console\controllers\BaseMigrateController->actionUp(0)
+#12 E:\server\WWW\yii2shop\advanced\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#13 E:\server\WWW\yii2shop\advanced\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#14 E:\server\WWW\yii2shop\advanced\vendor\yiisoft\yii2\console\Controller.php(128): yii\base\Controller->runAction('', Array)
+#15 E:\server\WWW\yii2shop\advanced\vendor\yiisoft\yii2\base\Module.php(523): yii\console\Controller->runAction('', Array)
+#16 E:\server\WWW\yii2shop\advanced\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('migrate', Array)
+#17 E:\server\WWW\yii2shop\advanced\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('migrate', Array)
+#18 E:\server\WWW\yii2shop\advanced\vendor\yiisoft\yii2\base\Application.php(380): yii\console\Application->handleRequest(Object(yii\console\Request))
+#19 E:\server\WWW\yii2shop\advanced\yii(27): yii\base\Application->run()
+#20 {main}
+Additional Information:
+
+2017-06-08 15:42:56 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\Administrator\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'PC201702091939'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'DEVMGR_SHOW_DETAILS' => '1'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\Administrator'
+    'LOCALAPPDATA' => 'C:\\Users\\Administrator\\AppData\\Local'
+    'LOGONSERVER' => '\\\\PC201702091939'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;E:\\TortoiseSVN\\bin;E:\\server\\mysql\\bin;C:\\;rogram Files\\TortoiseGit\\bin;E:\\server\\安装软件\\SVN\\Git_lu_jin\\Git\\cmd;;E:\\server\\An_Zhuang\\SVN\\Git_lu_jin\\Git\\Git\\cmd;E:\\server\\An_Zhuang\\SVN\\svn_fu_wu_qi\\bin;E:\\server\\An_Zhuang\\redis\\windows\\redisbin64.rar.Win_lujing;E:\\server\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PHP_COMMAND' => 'php.exe'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_ARCHITEW6432' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 58 Stepping 9, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '3a09'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files (x86)'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\;E:\\server\\An_Zhuang\\SVN\\svn_fu_wu_qi\\PowerShellModules'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'PC201702091939'
+    'USERNAME' => 'Administrator'
+    'USERPROFILE' => 'C:\\Users\\Administrator'
+    'VISUALSVN_SERVER' => 'E:\\server\\An_Zhuang\\SVN\\svn_fu_wu_qi\\'
+    'windir' => 'C:\\Windows'
+    'windows_tracing_flags' => '3'
+    'windows_tracing_logfile' => 'C:\\BVTBin\\Tests\\installpackage\\csilogfile.log'
+    'YII_PATH' => 'E:\\server\\WWW\\yii2shop\\advanced\\'
+    'PHP_SELF' => 'E:\\server\\WWW\\yii2shop\\advanced\\yii'
+    'SCRIPT_NAME' => 'E:\\server\\WWW\\yii2shop\\advanced\\yii'
+    'SCRIPT_FILENAME' => 'E:\\server\\WWW\\yii2shop\\advanced\\yii'
+    'PATH_TRANSLATED' => 'E:\\server\\WWW\\yii2shop\\advanced\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1496907776.0244
+    'REQUEST_TIME' => 1496907776
+    'argv' => [
+        0 => 'E:\\server\\WWW\\yii2shop\\advanced\\yii'
+        1 => 'migrate'
+    ]
+    'argc' => 2
+]
+2017-06-08 15:43:48 [-][-][-][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'yii2shop'' in E:\server\WWW\yii2shop\advanced\vendor\yiisoft\yii2\db\Connection.php:630
+Stack trace:
+#0 E:\server\WWW\yii2shop\advanced\vendor\yiisoft\yii2\db\Connection.php(630): PDO->__construct('mysql:host=loca...', 'root', 'admin', NULL)
+#1 E:\server\WWW\yii2shop\advanced\vendor\yiisoft\yii2\db\Connection.php(563): yii\db\Connection->createPdoInstance()
+#2 E:\server\WWW\yii2shop\advanced\vendor\yiisoft\yii2\db\Connection.php(896): yii\db\Connection->open()
+#3 E:\server\WWW\yii2shop\advanced\vendor\yiisoft\yii2\db\Connection.php(883): yii\db\Connection->getMasterPdo()
+#4 E:\server\WWW\yii2shop\advanced\vendor\yiisoft\yii2\db\Command.php(219): yii\db\Connection->getSlavePdo()
+#5 E:\server\WWW\yii2shop\advanced\vendor\yiisoft\yii2\db\Command.php(896): yii\db\Command->prepare(true)
+#6 E:\server\WWW\yii2shop\advanced\vendor\yiisoft\yii2\db\Command.php(362): yii\db\Command->queryInternal('fetchAll', NULL)
+#7 E:\server\WWW\yii2shop\advanced\vendor\yiisoft\yii2\db\mysql\Schema.php(199): yii\db\Command->queryAll()
+#8 E:\server\WWW\yii2shop\advanced\vendor\yiisoft\yii2\db\mysql\Schema.php(98): yii\db\mysql\Schema->findColumns(Object(yii\db\TableSchema))
+#9 E:\server\WWW\yii2shop\advanced\vendor\yiisoft\yii2\db\Schema.php(152): yii\db\mysql\Schema->loadTableSchema('migration')
+#10 E:\server\WWW\yii2shop\advanced\vendor\yiisoft\yii2\console\controllers\MigrateController.php(199): yii\db\Schema->getTableSchema('{{%migration}}', true)
+#11 E:\server\WWW\yii2shop\advanced\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(774): yii\console\controllers\MigrateController->getMigrationHistory(NULL)
+#12 E:\server\WWW\yii2shop\advanced\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(138): yii\console\controllers\BaseMigrateController->getNewMigrations()
+#13 [internal function]: yii\console\controllers\BaseMigrateController->actionUp(0)
+#14 E:\server\WWW\yii2shop\advanced\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#15 E:\server\WWW\yii2shop\advanced\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#16 E:\server\WWW\yii2shop\advanced\vendor\yiisoft\yii2\console\Controller.php(128): yii\base\Controller->runAction('', Array)
+#17 E:\server\WWW\yii2shop\advanced\vendor\yiisoft\yii2\base\Module.php(523): yii\console\Controller->runAction('', Array)
+#18 E:\server\WWW\yii2shop\advanced\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('migrate', Array)
+#19 E:\server\WWW\yii2shop\advanced\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('migrate', Array)
+#20 E:\server\WWW\yii2shop\advanced\vendor\yiisoft\yii2\base\Application.php(380): yii\console\Application->handleRequest(Object(yii\console\Request))
+#21 E:\server\WWW\yii2shop\advanced\yii(27): yii\base\Application->run()
+#22 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[HY000] [1049] Unknown database 'yii2shop'' in E:\server\WWW\yii2shop\advanced\vendor\yiisoft\yii2\db\Connection.php:568
+Stack trace:
+#0 E:\server\WWW\yii2shop\advanced\vendor\yiisoft\yii2\db\Connection.php(896): yii\db\Connection->open()
+#1 E:\server\WWW\yii2shop\advanced\vendor\yiisoft\yii2\db\Connection.php(883): yii\db\Connection->getMasterPdo()
+#2 E:\server\WWW\yii2shop\advanced\vendor\yiisoft\yii2\db\Command.php(219): yii\db\Connection->getSlavePdo()
+#3 E:\server\WWW\yii2shop\advanced\vendor\yiisoft\yii2\db\Command.php(896): yii\db\Command->prepare(true)
+#4 E:\server\WWW\yii2shop\advanced\vendor\yiisoft\yii2\db\Command.php(362): yii\db\Command->queryInternal('fetchAll', NULL)
+#5 E:\server\WWW\yii2shop\advanced\vendor\yiisoft\yii2\db\mysql\Schema.php(199): yii\db\Command->queryAll()
+#6 E:\server\WWW\yii2shop\advanced\vendor\yiisoft\yii2\db\mysql\Schema.php(98): yii\db\mysql\Schema->findColumns(Object(yii\db\TableSchema))
+#7 E:\server\WWW\yii2shop\advanced\vendor\yiisoft\yii2\db\Schema.php(152): yii\db\mysql\Schema->loadTableSchema('migration')
+#8 E:\server\WWW\yii2shop\advanced\vendor\yiisoft\yii2\console\controllers\MigrateController.php(199): yii\db\Schema->getTableSchema('{{%migration}}', true)
+#9 E:\server\WWW\yii2shop\advanced\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(774): yii\console\controllers\MigrateController->getMigrationHistory(NULL)
+#10 E:\server\WWW\yii2shop\advanced\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(138): yii\console\controllers\BaseMigrateController->getNewMigrations()
+#11 [internal function]: yii\console\controllers\BaseMigrateController->actionUp(0)
+#12 E:\server\WWW\yii2shop\advanced\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#13 E:\server\WWW\yii2shop\advanced\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#14 E:\server\WWW\yii2shop\advanced\vendor\yiisoft\yii2\console\Controller.php(128): yii\base\Controller->runAction('', Array)
+#15 E:\server\WWW\yii2shop\advanced\vendor\yiisoft\yii2\base\Module.php(523): yii\console\Controller->runAction('', Array)
+#16 E:\server\WWW\yii2shop\advanced\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('migrate', Array)
+#17 E:\server\WWW\yii2shop\advanced\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('migrate', Array)
+#18 E:\server\WWW\yii2shop\advanced\vendor\yiisoft\yii2\base\Application.php(380): yii\console\Application->handleRequest(Object(yii\console\Request))
+#19 E:\server\WWW\yii2shop\advanced\yii(27): yii\base\Application->run()
+#20 {main}
+Additional Information:
+
+2017-06-08 15:43:47 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\Administrator\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'PC201702091939'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'DEVMGR_SHOW_DETAILS' => '1'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\Administrator'
+    'LOCALAPPDATA' => 'C:\\Users\\Administrator\\AppData\\Local'
+    'LOGONSERVER' => '\\\\PC201702091939'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;E:\\TortoiseSVN\\bin;E:\\server\\mysql\\bin;C:\\;rogram Files\\TortoiseGit\\bin;E:\\server\\安装软件\\SVN\\Git_lu_jin\\Git\\cmd;;E:\\server\\An_Zhuang\\SVN\\Git_lu_jin\\Git\\Git\\cmd;E:\\server\\An_Zhuang\\SVN\\svn_fu_wu_qi\\bin;E:\\server\\An_Zhuang\\redis\\windows\\redisbin64.rar.Win_lujing;E:\\server\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PHP_COMMAND' => 'php.exe'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_ARCHITEW6432' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 58 Stepping 9, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '3a09'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files (x86)'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\;E:\\server\\An_Zhuang\\SVN\\svn_fu_wu_qi\\PowerShellModules'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'PC201702091939'
+    'USERNAME' => 'Administrator'
+    'USERPROFILE' => 'C:\\Users\\Administrator'
+    'VISUALSVN_SERVER' => 'E:\\server\\An_Zhuang\\SVN\\svn_fu_wu_qi\\'
+    'windir' => 'C:\\Windows'
+    'windows_tracing_flags' => '3'
+    'windows_tracing_logfile' => 'C:\\BVTBin\\Tests\\installpackage\\csilogfile.log'
+    'YII_PATH' => 'E:\\server\\WWW\\yii2shop\\advanced\\'
+    'PHP_SELF' => 'E:\\server\\WWW\\yii2shop\\advanced\\yii'
+    'SCRIPT_NAME' => 'E:\\server\\WWW\\yii2shop\\advanced\\yii'
+    'SCRIPT_FILENAME' => 'E:\\server\\WWW\\yii2shop\\advanced\\yii'
+    'PATH_TRANSLATED' => 'E:\\server\\WWW\\yii2shop\\advanced\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1496907827.1393
+    'REQUEST_TIME' => 1496907827
+    'argv' => [
+        0 => 'E:\\server\\WWW\\yii2shop\\advanced\\yii'
+        1 => 'migrate'
+    ]
+    'argc' => 2
+]
+2017-06-08 15:44:27 [-][-][-][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'yii2shop'' in E:\server\WWW\yii2shop\advanced\vendor\yiisoft\yii2\db\Connection.php:630
+Stack trace:
+#0 E:\server\WWW\yii2shop\advanced\vendor\yiisoft\yii2\db\Connection.php(630): PDO->__construct('mysql:host=127....', 'root', 'admin', NULL)
+#1 E:\server\WWW\yii2shop\advanced\vendor\yiisoft\yii2\db\Connection.php(563): yii\db\Connection->createPdoInstance()
+#2 E:\server\WWW\yii2shop\advanced\vendor\yiisoft\yii2\db\Connection.php(896): yii\db\Connection->open()
+#3 E:\server\WWW\yii2shop\advanced\vendor\yiisoft\yii2\db\Connection.php(883): yii\db\Connection->getMasterPdo()
+#4 E:\server\WWW\yii2shop\advanced\vendor\yiisoft\yii2\db\Command.php(219): yii\db\Connection->getSlavePdo()
+#5 E:\server\WWW\yii2shop\advanced\vendor\yiisoft\yii2\db\Command.php(896): yii\db\Command->prepare(true)
+#6 E:\server\WWW\yii2shop\advanced\vendor\yiisoft\yii2\db\Command.php(362): yii\db\Command->queryInternal('fetchAll', NULL)
+#7 E:\server\WWW\yii2shop\advanced\vendor\yiisoft\yii2\db\mysql\Schema.php(199): yii\db\Command->queryAll()
+#8 E:\server\WWW\yii2shop\advanced\vendor\yiisoft\yii2\db\mysql\Schema.php(98): yii\db\mysql\Schema->findColumns(Object(yii\db\TableSchema))
+#9 E:\server\WWW\yii2shop\advanced\vendor\yiisoft\yii2\db\Schema.php(152): yii\db\mysql\Schema->loadTableSchema('migration')
+#10 E:\server\WWW\yii2shop\advanced\vendor\yiisoft\yii2\console\controllers\MigrateController.php(199): yii\db\Schema->getTableSchema('{{%migration}}', true)
+#11 E:\server\WWW\yii2shop\advanced\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(774): yii\console\controllers\MigrateController->getMigrationHistory(NULL)
+#12 E:\server\WWW\yii2shop\advanced\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(138): yii\console\controllers\BaseMigrateController->getNewMigrations()
+#13 [internal function]: yii\console\controllers\BaseMigrateController->actionUp(0)
+#14 E:\server\WWW\yii2shop\advanced\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#15 E:\server\WWW\yii2shop\advanced\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#16 E:\server\WWW\yii2shop\advanced\vendor\yiisoft\yii2\console\Controller.php(128): yii\base\Controller->runAction('', Array)
+#17 E:\server\WWW\yii2shop\advanced\vendor\yiisoft\yii2\base\Module.php(523): yii\console\Controller->runAction('', Array)
+#18 E:\server\WWW\yii2shop\advanced\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('migrate', Array)
+#19 E:\server\WWW\yii2shop\advanced\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('migrate', Array)
+#20 E:\server\WWW\yii2shop\advanced\vendor\yiisoft\yii2\base\Application.php(380): yii\console\Application->handleRequest(Object(yii\console\Request))
+#21 E:\server\WWW\yii2shop\advanced\yii(27): yii\base\Application->run()
+#22 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[HY000] [1049] Unknown database 'yii2shop'' in E:\server\WWW\yii2shop\advanced\vendor\yiisoft\yii2\db\Connection.php:568
+Stack trace:
+#0 E:\server\WWW\yii2shop\advanced\vendor\yiisoft\yii2\db\Connection.php(896): yii\db\Connection->open()
+#1 E:\server\WWW\yii2shop\advanced\vendor\yiisoft\yii2\db\Connection.php(883): yii\db\Connection->getMasterPdo()
+#2 E:\server\WWW\yii2shop\advanced\vendor\yiisoft\yii2\db\Command.php(219): yii\db\Connection->getSlavePdo()
+#3 E:\server\WWW\yii2shop\advanced\vendor\yiisoft\yii2\db\Command.php(896): yii\db\Command->prepare(true)
+#4 E:\server\WWW\yii2shop\advanced\vendor\yiisoft\yii2\db\Command.php(362): yii\db\Command->queryInternal('fetchAll', NULL)
+#5 E:\server\WWW\yii2shop\advanced\vendor\yiisoft\yii2\db\mysql\Schema.php(199): yii\db\Command->queryAll()
+#6 E:\server\WWW\yii2shop\advanced\vendor\yiisoft\yii2\db\mysql\Schema.php(98): yii\db\mysql\Schema->findColumns(Object(yii\db\TableSchema))
+#7 E:\server\WWW\yii2shop\advanced\vendor\yiisoft\yii2\db\Schema.php(152): yii\db\mysql\Schema->loadTableSchema('migration')
+#8 E:\server\WWW\yii2shop\advanced\vendor\yiisoft\yii2\console\controllers\MigrateController.php(199): yii\db\Schema->getTableSchema('{{%migration}}', true)
+#9 E:\server\WWW\yii2shop\advanced\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(774): yii\console\controllers\MigrateController->getMigrationHistory(NULL)
+#10 E:\server\WWW\yii2shop\advanced\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(138): yii\console\controllers\BaseMigrateController->getNewMigrations()
+#11 [internal function]: yii\console\controllers\BaseMigrateController->actionUp(0)
+#12 E:\server\WWW\yii2shop\advanced\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#13 E:\server\WWW\yii2shop\advanced\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#14 E:\server\WWW\yii2shop\advanced\vendor\yiisoft\yii2\console\Controller.php(128): yii\base\Controller->runAction('', Array)
+#15 E:\server\WWW\yii2shop\advanced\vendor\yiisoft\yii2\base\Module.php(523): yii\console\Controller->runAction('', Array)
+#16 E:\server\WWW\yii2shop\advanced\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('migrate', Array)
+#17 E:\server\WWW\yii2shop\advanced\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('migrate', Array)
+#18 E:\server\WWW\yii2shop\advanced\vendor\yiisoft\yii2\base\Application.php(380): yii\console\Application->handleRequest(Object(yii\console\Request))
+#19 E:\server\WWW\yii2shop\advanced\yii(27): yii\base\Application->run()
+#20 {main}
+Additional Information:
+
+2017-06-08 15:44:27 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\Administrator\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'PC201702091939'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'DEVMGR_SHOW_DETAILS' => '1'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\Administrator'
+    'LOCALAPPDATA' => 'C:\\Users\\Administrator\\AppData\\Local'
+    'LOGONSERVER' => '\\\\PC201702091939'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;E:\\TortoiseSVN\\bin;E:\\server\\mysql\\bin;C:\\;rogram Files\\TortoiseGit\\bin;E:\\server\\安装软件\\SVN\\Git_lu_jin\\Git\\cmd;;E:\\server\\An_Zhuang\\SVN\\Git_lu_jin\\Git\\Git\\cmd;E:\\server\\An_Zhuang\\SVN\\svn_fu_wu_qi\\bin;E:\\server\\An_Zhuang\\redis\\windows\\redisbin64.rar.Win_lujing;E:\\server\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PHP_COMMAND' => 'php.exe'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_ARCHITEW6432' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 58 Stepping 9, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '3a09'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files (x86)'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\;E:\\server\\An_Zhuang\\SVN\\svn_fu_wu_qi\\PowerShellModules'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'PC201702091939'
+    'USERNAME' => 'Administrator'
+    'USERPROFILE' => 'C:\\Users\\Administrator'
+    'VISUALSVN_SERVER' => 'E:\\server\\An_Zhuang\\SVN\\svn_fu_wu_qi\\'
+    'windir' => 'C:\\Windows'
+    'windows_tracing_flags' => '3'
+    'windows_tracing_logfile' => 'C:\\BVTBin\\Tests\\installpackage\\csilogfile.log'
+    'YII_PATH' => 'E:\\server\\WWW\\yii2shop\\advanced\\'
+    'PHP_SELF' => 'E:\\server\\WWW\\yii2shop\\advanced\\yii'
+    'SCRIPT_NAME' => 'E:\\server\\WWW\\yii2shop\\advanced\\yii'
+    'SCRIPT_FILENAME' => 'E:\\server\\WWW\\yii2shop\\advanced\\yii'
+    'PATH_TRANSLATED' => 'E:\\server\\WWW\\yii2shop\\advanced\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1496907867.8337
+    'REQUEST_TIME' => 1496907867
+    'argv' => [
+        0 => 'E:\\server\\WWW\\yii2shop\\advanced\\yii'
+        1 => 'migrate'
+    ]
+    'argc' => 2
+]
+2017-06-08 22:26:48 [-][-][-][error][yii\console\UnknownCommandException] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "migreate".' in E:\server\WWW\yii2shop\advanced\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 E:\server\WWW\yii2shop\advanced\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('migreate', Array)
+#1 E:\server\WWW\yii2shop\advanced\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('migreate', Array)
+#2 E:\server\WWW\yii2shop\advanced\vendor\yiisoft\yii2\base\Application.php(380): yii\console\Application->handleRequest(Object(yii\console\Request))
+#3 E:\server\WWW\yii2shop\advanced\yii(27): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\console\UnknownCommandException' with message 'Unknown command "migreate".' in E:\server\WWW\yii2shop\advanced\vendor\yiisoft\yii2\console\Application.php:183
+Stack trace:
+#0 E:\server\WWW\yii2shop\advanced\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('migreate', Array)
+#1 E:\server\WWW\yii2shop\advanced\vendor\yiisoft\yii2\base\Application.php(380): yii\console\Application->handleRequest(Object(yii\console\Request))
+#2 E:\server\WWW\yii2shop\advanced\yii(27): yii\base\Application->run()
+#3 {main}
+2017-06-08 22:26:48 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\Administrator\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'PC201702091939'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'DEVMGR_SHOW_DETAILS' => '1'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\Administrator'
+    'LOCALAPPDATA' => 'C:\\Users\\Administrator\\AppData\\Local'
+    'LOGONSERVER' => '\\\\PC201702091939'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;E:\\TortoiseSVN\\bin;E:\\server\\mysql\\bin;C:\\;rogram Files\\TortoiseGit\\bin;E:\\server\\安装软件\\SVN\\Git_lu_jin\\Git\\cmd;;E:\\server\\An_Zhuang\\SVN\\Git_lu_jin\\Git\\Git\\cmd;E:\\server\\An_Zhuang\\SVN\\svn_fu_wu_qi\\bin;E:\\server\\An_Zhuang\\redis\\windows\\redisbin64.rar.Win_lujing;E:\\server\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PHP_COMMAND' => 'php.exe'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_ARCHITEW6432' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 58 Stepping 9, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '3a09'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files (x86)'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\;E:\\server\\An_Zhuang\\SVN\\svn_fu_wu_qi\\PowerShellModules'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'PC201702091939'
+    'USERNAME' => 'Administrator'
+    'USERPROFILE' => 'C:\\Users\\Administrator'
+    'VISUALSVN_SERVER' => 'E:\\server\\An_Zhuang\\SVN\\svn_fu_wu_qi\\'
+    'windir' => 'C:\\Windows'
+    'windows_tracing_flags' => '3'
+    'windows_tracing_logfile' => 'C:\\BVTBin\\Tests\\installpackage\\csilogfile.log'
+    'YII_PATH' => 'E:\\server\\WWW\\yii2shop\\advanced\\'
+    'PHP_SELF' => 'E:\\server\\WWW\\yii2shop\\advanced\\yii'
+    'SCRIPT_NAME' => 'E:\\server\\WWW\\yii2shop\\advanced\\yii'
+    'SCRIPT_FILENAME' => 'E:\\server\\WWW\\yii2shop\\advanced\\yii'
+    'PATH_TRANSLATED' => 'E:\\server\\WWW\\yii2shop\\advanced\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1496932008.4512
+    'REQUEST_TIME' => 1496932008
+    'argv' => [
+        0 => 'E:\\server\\WWW\\yii2shop\\advanced\\yii'
+        1 => 'migreate'
+    ]
+    'argc' => 2
+]
+2017-06-11 09:05:05 [-][-][-][error][yii\console\UnknownCommandException] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "migreate/create".' in E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('migreate/create', Array)
+#1 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('migreate/create', Array)
+#2 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\base\Application.php(380): yii\console\Application->handleRequest(Object(yii\console\Request))
+#3 E:\server\WWW\yii2shop\yii2shop\yii(27): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\console\UnknownCommandException' with message 'Unknown command "migreate/create".' in E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\console\Application.php:183
+Stack trace:
+#0 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('migreate/create', Array)
+#1 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\base\Application.php(380): yii\console\Application->handleRequest(Object(yii\console\Request))
+#2 E:\server\WWW\yii2shop\yii2shop\yii(27): yii\base\Application->run()
+#3 {main}
+2017-06-11 09:05:05 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\Administrator\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'PC201702091939'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'DEVMGR_SHOW_DETAILS' => '1'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\Administrator'
+    'LOCALAPPDATA' => 'C:\\Users\\Administrator\\AppData\\Local'
+    'LOGONSERVER' => '\\\\PC201702091939'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;E:\\TortoiseSVN\\bin;E:\\server\\mysql\\bin;C:\\;rogram Files\\TortoiseGit\\bin;E:\\server\\安装软件\\SVN\\Git_lu_jin\\Git\\cmd;;E:\\server\\An_Zhuang\\SVN\\Git_lu_jin\\Git\\Git\\cmd;E:\\server\\An_Zhuang\\SVN\\svn_fu_wu_qi\\bin;E:\\server\\An_Zhuang\\redis\\windows\\redisbin64.rar.Win_lujing;E:\\server\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PHP_COMMAND' => 'php.exe'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_ARCHITEW6432' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 58 Stepping 9, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '3a09'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files (x86)'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\;E:\\server\\An_Zhuang\\SVN\\svn_fu_wu_qi\\PowerShellModules'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'PC201702091939'
+    'USERNAME' => 'Administrator'
+    'USERPROFILE' => 'C:\\Users\\Administrator'
+    'VISUALSVN_SERVER' => 'E:\\server\\An_Zhuang\\SVN\\svn_fu_wu_qi\\'
+    'windir' => 'C:\\Windows'
+    'windows_tracing_flags' => '3'
+    'windows_tracing_logfile' => 'C:\\BVTBin\\Tests\\installpackage\\csilogfile.log'
+    'YII_PATH' => 'E:\\server\\WWW\\yii2shop\\yii2shop\\'
+    'PHP_SELF' => 'E:\\server\\WWW\\yii2shop\\yii2shop\\yii'
+    'SCRIPT_NAME' => 'E:\\server\\WWW\\yii2shop\\yii2shop\\yii'
+    'SCRIPT_FILENAME' => 'E:\\server\\WWW\\yii2shop\\yii2shop\\yii'
+    'PATH_TRANSLATED' => 'E:\\server\\WWW\\yii2shop\\yii2shop\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1497143105.2167
+    'REQUEST_TIME' => 1497143105
+    'argv' => [
+        0 => 'E:\\server\\WWW\\yii2shop\\yii2shop\\yii'
+        1 => 'migreate/create'
+    ]
+    'argc' => 2
+]
+2017-06-11 10:36:08 [-][-][-][error][yii\console\UnknownCommandException] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "migreate".' in E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('migreate', Array)
+#1 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('migreate', Array)
+#2 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\base\Application.php(380): yii\console\Application->handleRequest(Object(yii\console\Request))
+#3 E:\server\WWW\yii2shop\yii2shop\yii(27): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\console\UnknownCommandException' with message 'Unknown command "migreate".' in E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\console\Application.php:183
+Stack trace:
+#0 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('migreate', Array)
+#1 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\base\Application.php(380): yii\console\Application->handleRequest(Object(yii\console\Request))
+#2 E:\server\WWW\yii2shop\yii2shop\yii(27): yii\base\Application->run()
+#3 {main}
+2017-06-11 10:36:08 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\Administrator\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'PC201702091939'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'DEVMGR_SHOW_DETAILS' => '1'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\Administrator'
+    'LOCALAPPDATA' => 'C:\\Users\\Administrator\\AppData\\Local'
+    'LOGONSERVER' => '\\\\PC201702091939'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;E:\\TortoiseSVN\\bin;E:\\server\\mysql\\bin;C:\\;rogram Files\\TortoiseGit\\bin;E:\\server\\安装软件\\SVN\\Git_lu_jin\\Git\\cmd;;E:\\server\\An_Zhuang\\SVN\\Git_lu_jin\\Git\\Git\\cmd;E:\\server\\An_Zhuang\\SVN\\svn_fu_wu_qi\\bin;E:\\server\\An_Zhuang\\redis\\windows\\redisbin64.rar.Win_lujing;E:\\server\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PHP_COMMAND' => 'php.exe'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_ARCHITEW6432' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 58 Stepping 9, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '3a09'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files (x86)'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\;E:\\server\\An_Zhuang\\SVN\\svn_fu_wu_qi\\PowerShellModules'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'PC201702091939'
+    'USERNAME' => 'Administrator'
+    'USERPROFILE' => 'C:\\Users\\Administrator'
+    'VISUALSVN_SERVER' => 'E:\\server\\An_Zhuang\\SVN\\svn_fu_wu_qi\\'
+    'windir' => 'C:\\Windows'
+    'windows_tracing_flags' => '3'
+    'windows_tracing_logfile' => 'C:\\BVTBin\\Tests\\installpackage\\csilogfile.log'
+    'YII_PATH' => 'E:\\server\\WWW\\yii2shop\\yii2shop\\'
+    'PHP_SELF' => 'E:\\server\\WWW\\yii2shop\\yii2shop\\yii'
+    'SCRIPT_NAME' => 'E:\\server\\WWW\\yii2shop\\yii2shop\\yii'
+    'SCRIPT_FILENAME' => 'E:\\server\\WWW\\yii2shop\\yii2shop\\yii'
+    'PATH_TRANSLATED' => 'E:\\server\\WWW\\yii2shop\\yii2shop\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1497148568.9012
+    'REQUEST_TIME' => 1497148568
+    'argv' => [
+        0 => 'E:\\server\\WWW\\yii2shop\\yii2shop\\yii'
+        1 => 'migreate'
+    ]
+    'argc' => 2
+]
+2017-06-11 10:51:33 [-][-][-][error][yii\console\UnknownCommandException] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "migreate".' in E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('migreate', Array)
+#1 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('migreate', Array)
+#2 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\base\Application.php(380): yii\console\Application->handleRequest(Object(yii\console\Request))
+#3 E:\server\WWW\yii2shop\yii2shop\yii(27): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\console\UnknownCommandException' with message 'Unknown command "migreate".' in E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\console\Application.php:183
+Stack trace:
+#0 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('migreate', Array)
+#1 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\base\Application.php(380): yii\console\Application->handleRequest(Object(yii\console\Request))
+#2 E:\server\WWW\yii2shop\yii2shop\yii(27): yii\base\Application->run()
+#3 {main}
+2017-06-11 10:51:33 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\Administrator\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'PC201702091939'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'DEVMGR_SHOW_DETAILS' => '1'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\Administrator'
+    'LOCALAPPDATA' => 'C:\\Users\\Administrator\\AppData\\Local'
+    'LOGONSERVER' => '\\\\PC201702091939'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;E:\\TortoiseSVN\\bin;E:\\server\\mysql\\bin;C:\\;rogram Files\\TortoiseGit\\bin;E:\\server\\安装软件\\SVN\\Git_lu_jin\\Git\\cmd;;E:\\server\\An_Zhuang\\SVN\\Git_lu_jin\\Git\\Git\\cmd;E:\\server\\An_Zhuang\\SVN\\svn_fu_wu_qi\\bin;E:\\server\\An_Zhuang\\redis\\windows\\redisbin64.rar.Win_lujing;E:\\server\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PHP_COMMAND' => 'php.exe'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_ARCHITEW6432' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 58 Stepping 9, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '3a09'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files (x86)'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\;E:\\server\\An_Zhuang\\SVN\\svn_fu_wu_qi\\PowerShellModules'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'PC201702091939'
+    'USERNAME' => 'Administrator'
+    'USERPROFILE' => 'C:\\Users\\Administrator'
+    'VISUALSVN_SERVER' => 'E:\\server\\An_Zhuang\\SVN\\svn_fu_wu_qi\\'
+    'windir' => 'C:\\Windows'
+    'windows_tracing_flags' => '3'
+    'windows_tracing_logfile' => 'C:\\BVTBin\\Tests\\installpackage\\csilogfile.log'
+    'YII_PATH' => 'E:\\server\\WWW\\yii2shop\\yii2shop\\'
+    'PHP_SELF' => 'E:\\server\\WWW\\yii2shop\\yii2shop\\yii'
+    'SCRIPT_NAME' => 'E:\\server\\WWW\\yii2shop\\yii2shop\\yii'
+    'SCRIPT_FILENAME' => 'E:\\server\\WWW\\yii2shop\\yii2shop\\yii'
+    'PATH_TRANSLATED' => 'E:\\server\\WWW\\yii2shop\\yii2shop\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1497149493.3181
+    'REQUEST_TIME' => 1497149493
+    'argv' => [
+        0 => 'E:\\server\\WWW\\yii2shop\\yii2shop\\yii'
+        1 => 'migreate'
+    ]
+    'argc' => 2
+]
+2017-06-11 21:00:02 [-][-][-][error][yii\console\UnknownCommandException] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "migreate".' in E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('migreate', Array)
+#1 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('migreate', Array)
+#2 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\base\Application.php(380): yii\console\Application->handleRequest(Object(yii\console\Request))
+#3 E:\server\WWW\yii2shop\yii2shop\yii(27): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\console\UnknownCommandException' with message 'Unknown command "migreate".' in E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\console\Application.php:183
+Stack trace:
+#0 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('migreate', Array)
+#1 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\base\Application.php(380): yii\console\Application->handleRequest(Object(yii\console\Request))
+#2 E:\server\WWW\yii2shop\yii2shop\yii(27): yii\base\Application->run()
+#3 {main}
+2017-06-11 21:00:02 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\Administrator\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'PC201702091939'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'DEVMGR_SHOW_DETAILS' => '1'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\Administrator'
+    'LOCALAPPDATA' => 'C:\\Users\\Administrator\\AppData\\Local'
+    'LOGONSERVER' => '\\\\PC201702091939'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;E:\\TortoiseSVN\\bin;E:\\server\\mysql\\bin;C:\\;rogram Files\\TortoiseGit\\bin;E:\\server\\安装软件\\SVN\\Git_lu_jin\\Git\\cmd;;E:\\server\\An_Zhuang\\SVN\\Git_lu_jin\\Git\\Git\\cmd;E:\\server\\An_Zhuang\\SVN\\svn_fu_wu_qi\\bin;E:\\server\\An_Zhuang\\redis\\windows\\redisbin64.rar.Win_lujing;E:\\server\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PHP_COMMAND' => 'php.exe'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_ARCHITEW6432' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 58 Stepping 9, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '3a09'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files (x86)'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\;E:\\server\\An_Zhuang\\SVN\\svn_fu_wu_qi\\PowerShellModules'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'PC201702091939'
+    'USERNAME' => 'Administrator'
+    'USERPROFILE' => 'C:\\Users\\Administrator'
+    'VISUALSVN_SERVER' => 'E:\\server\\An_Zhuang\\SVN\\svn_fu_wu_qi\\'
+    'windir' => 'C:\\Windows'
+    'windows_tracing_flags' => '3'
+    'windows_tracing_logfile' => 'C:\\BVTBin\\Tests\\installpackage\\csilogfile.log'
+    'YII_PATH' => 'E:\\server\\WWW\\yii2shop\\yii2shop\\'
+    'PHP_SELF' => 'E:\\server\\WWW\\yii2shop\\yii2shop\\yii'
+    'SCRIPT_NAME' => 'E:\\server\\WWW\\yii2shop\\yii2shop\\yii'
+    'SCRIPT_FILENAME' => 'E:\\server\\WWW\\yii2shop\\yii2shop\\yii'
+    'PATH_TRANSLATED' => 'E:\\server\\WWW\\yii2shop\\yii2shop\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1497186002.8852
+    'REQUEST_TIME' => 1497186002
+    'argv' => [
+        0 => 'E:\\server\\WWW\\yii2shop\\yii2shop\\yii'
+        1 => 'migreate'
+        2 => 'on'
+    ]
+    'argc' => 3
+]
+2017-06-16 10:00:26 [-][-][-][error][yii\base\InvalidConfigException] exception 'yii\base\InvalidConfigException' with message 'You should configure "authManager" component to use database before executing this migration.' in E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\rbac\migrations\m140506_102106_rbac_init.php:27
+Stack trace:
+#0 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\rbac\migrations\m140506_102106_rbac_init.php(45): m140506_102106_rbac_init->getAuthManager()
+#1 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(654): m140506_102106_rbac_init->up()
+#2 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(166): yii\console\controllers\BaseMigrateController->migrateUp('m140506_102106_...')
+#3 [internal function]: yii\console\controllers\BaseMigrateController->actionUp(0)
+#4 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#5 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#6 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\console\Controller.php(128): yii\base\Controller->runAction('', Array)
+#7 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\base\Module.php(523): yii\console\Controller->runAction('', Array)
+#8 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('migrate', Array)
+#9 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('migrate', Array)
+#10 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\base\Application.php(380): yii\console\Application->handleRequest(Object(yii\console\Request))
+#11 E:\server\WWW\yii2shop\yii2shop\yii(27): yii\base\Application->run()
+#12 {main}
+2017-06-16 10:00:22 [-][-][-][info][application] $_SERVER = [
+    'LOCALAPPDATA' => 'C:\\Users\\Administrator\\AppData\\Local'
+    'PHP_COMMAND' => 'php.exe'
+    'PROCESSOR_LEVEL' => '6'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'PROMPT' => '$P$G'
+    'USERDOMAIN' => 'PC201702091939'
+    'LOGONSERVER' => '\\\\PC201702091939'
+    'SESSIONNAME' => 'Console'
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PSModulePath' => 'C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\;E:\\server\\An_Zhuang\\SVN\\svn_fu_wu_qi\\PowerShellModules'
+    'SystemDrive' => 'C:'
+    'APPDATA' => 'C:\\Users\\Administrator\\AppData\\Roaming'
+    'USERNAME' => 'Administrator'
+    'windows_tracing_logfile' => 'C:\\BVTBin\\Tests\\installpackage\\csilogfile.log'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'VISUALSVN_SERVER' => 'E:\\server\\An_Zhuang\\SVN\\svn_fu_wu_qi\\'
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files'
+    'Path' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;E:\\TortoiseSVN\\bin;E:\\server\\mysql\\bin;C:\\;rogram Files\\TortoiseGit\\bin;E:\\server\\安装软件\\SVN\\Git_lu_jin\\Git\\cmd;;E:\\server\\An_Zhuang\\SVN\\Git_lu_jin\\Git\\Git\\cmd;E:\\server\\An_Zhuang\\SVN\\svn_fu_wu_qi\\bin;E:\\server\\An_Zhuang\\redis\\windows\\redisbin64.rar.Win_lujing;E:\\server\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'OS' => 'Windows_NT'
+    'PROCESSOR_ARCHITEW6432' => 'AMD64'
+    'windows_tracing_flags' => '3'
+    'COMPUTERNAME' => 'PC201702091939'
+    'PROCESSOR_REVISION' => '3a09'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'DEVMGR_SHOW_DETAILS' => '1'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramW6432' => 'C:\\Program Files'
+    'HOMEPATH' => '\\Users\\Administrator'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'HOMEDRIVE' => 'C:'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 58 Stepping 9, GenuineIntel'
+    'USERPROFILE' => 'C:\\Users\\Administrator'
+    'TMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'ProgramFiles' => 'C:\\Program Files (x86)'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'windir' => 'C:\\Windows'
+    'YII_PATH' => 'E:\\server\\WWW\\yii2shop\\yii2shop\\'
+    'PHP_SELF' => 'E:\\server\\WWW\\yii2shop\\yii2shop\\yii'
+    'SCRIPT_NAME' => 'E:\\server\\WWW\\yii2shop\\yii2shop\\yii'
+    'SCRIPT_FILENAME' => 'E:\\server\\WWW\\yii2shop\\yii2shop\\yii'
+    'PATH_TRANSLATED' => 'E:\\server\\WWW\\yii2shop\\yii2shop\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1497578422.9717
+    'REQUEST_TIME' => 1497578422
+    'argv' => [
+        0 => 'E:\\server\\WWW\\yii2shop\\yii2shop\\yii'
+        1 => 'migrate'
+        2 => '--migrationPath=@yii/rbac/migrations'
+    ]
+    'argc' => 3
+]
+2017-06-16 10:07:36 [-][-][-][error][yii\base\InvalidConfigException] exception 'yii\base\InvalidConfigException' with message 'You should configure "authManager" component to use database before executing this migration.' in E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\rbac\migrations\m140506_102106_rbac_init.php:27
+Stack trace:
+#0 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\rbac\migrations\m140506_102106_rbac_init.php(45): m140506_102106_rbac_init->getAuthManager()
+#1 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(654): m140506_102106_rbac_init->up()
+#2 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(166): yii\console\controllers\BaseMigrateController->migrateUp('m140506_102106_...')
+#3 [internal function]: yii\console\controllers\BaseMigrateController->actionUp(0)
+#4 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#5 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#6 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\console\Controller.php(128): yii\base\Controller->runAction('', Array)
+#7 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\base\Module.php(523): yii\console\Controller->runAction('', Array)
+#8 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('migrate', Array)
+#9 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('migrate', Array)
+#10 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\base\Application.php(380): yii\console\Application->handleRequest(Object(yii\console\Request))
+#11 E:\server\WWW\yii2shop\yii2shop\yii(27): yii\base\Application->run()
+#12 {main}
+2017-06-16 10:07:32 [-][-][-][info][application] $_SERVER = [
+    'LOCALAPPDATA' => 'C:\\Users\\Administrator\\AppData\\Local'
+    'PHP_COMMAND' => 'php.exe'
+    'PROCESSOR_LEVEL' => '6'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'PROMPT' => '$P$G'
+    'USERDOMAIN' => 'PC201702091939'
+    'LOGONSERVER' => '\\\\PC201702091939'
+    'SESSIONNAME' => 'Console'
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PSModulePath' => 'C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\;E:\\server\\An_Zhuang\\SVN\\svn_fu_wu_qi\\PowerShellModules'
+    'SystemDrive' => 'C:'
+    'APPDATA' => 'C:\\Users\\Administrator\\AppData\\Roaming'
+    'USERNAME' => 'Administrator'
+    'windows_tracing_logfile' => 'C:\\BVTBin\\Tests\\installpackage\\csilogfile.log'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'VISUALSVN_SERVER' => 'E:\\server\\An_Zhuang\\SVN\\svn_fu_wu_qi\\'
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files'
+    'Path' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;E:\\TortoiseSVN\\bin;E:\\server\\mysql\\bin;C:\\;rogram Files\\TortoiseGit\\bin;E:\\server\\安装软件\\SVN\\Git_lu_jin\\Git\\cmd;;E:\\server\\An_Zhuang\\SVN\\Git_lu_jin\\Git\\Git\\cmd;E:\\server\\An_Zhuang\\SVN\\svn_fu_wu_qi\\bin;E:\\server\\An_Zhuang\\redis\\windows\\redisbin64.rar.Win_lujing;E:\\server\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'OS' => 'Windows_NT'
+    'PROCESSOR_ARCHITEW6432' => 'AMD64'
+    'windows_tracing_flags' => '3'
+    'COMPUTERNAME' => 'PC201702091939'
+    'PROCESSOR_REVISION' => '3a09'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'DEVMGR_SHOW_DETAILS' => '1'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramW6432' => 'C:\\Program Files'
+    'HOMEPATH' => '\\Users\\Administrator'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'HOMEDRIVE' => 'C:'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 58 Stepping 9, GenuineIntel'
+    'USERPROFILE' => 'C:\\Users\\Administrator'
+    'TMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'ProgramFiles' => 'C:\\Program Files (x86)'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'windir' => 'C:\\Windows'
+    'YII_PATH' => 'E:\\server\\WWW\\yii2shop\\yii2shop\\'
+    'PHP_SELF' => 'E:\\server\\WWW\\yii2shop\\yii2shop\\yii'
+    'SCRIPT_NAME' => 'E:\\server\\WWW\\yii2shop\\yii2shop\\yii'
+    'SCRIPT_FILENAME' => 'E:\\server\\WWW\\yii2shop\\yii2shop\\yii'
+    'PATH_TRANSLATED' => 'E:\\server\\WWW\\yii2shop\\yii2shop\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1497578852.7733
+    'REQUEST_TIME' => 1497578852
+    'argv' => [
+        0 => 'E:\\server\\WWW\\yii2shop\\yii2shop\\yii'
+        1 => 'migrate'
+        2 => '--migrationPath=@yii/rbac/migrations'
+    ]
+    'argc' => 3
+]
+2017-06-16 10:08:23 [-][-][-][error][yii\base\InvalidConfigException] exception 'yii\base\InvalidConfigException' with message 'You should configure "authManager" component to use database before executing this migration.' in E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\rbac\migrations\m140506_102106_rbac_init.php:27
+Stack trace:
+#0 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\rbac\migrations\m140506_102106_rbac_init.php(45): m140506_102106_rbac_init->getAuthManager()
+#1 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(654): m140506_102106_rbac_init->up()
+#2 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(166): yii\console\controllers\BaseMigrateController->migrateUp('m140506_102106_...')
+#3 [internal function]: yii\console\controllers\BaseMigrateController->actionUp(0)
+#4 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#5 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#6 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\console\Controller.php(128): yii\base\Controller->runAction('', Array)
+#7 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\base\Module.php(523): yii\console\Controller->runAction('', Array)
+#8 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('migrate', Array)
+#9 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('migrate', Array)
+#10 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\base\Application.php(380): yii\console\Application->handleRequest(Object(yii\console\Request))
+#11 E:\server\WWW\yii2shop\yii2shop\yii(27): yii\base\Application->run()
+#12 {main}
+2017-06-16 10:08:21 [-][-][-][info][application] $_SERVER = [
+    'LOCALAPPDATA' => 'C:\\Users\\Administrator\\AppData\\Local'
+    'PHP_COMMAND' => 'php.exe'
+    'PROCESSOR_LEVEL' => '6'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'PROMPT' => '$P$G'
+    'USERDOMAIN' => 'PC201702091939'
+    'LOGONSERVER' => '\\\\PC201702091939'
+    'SESSIONNAME' => 'Console'
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PSModulePath' => 'C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\;E:\\server\\An_Zhuang\\SVN\\svn_fu_wu_qi\\PowerShellModules'
+    'SystemDrive' => 'C:'
+    'APPDATA' => 'C:\\Users\\Administrator\\AppData\\Roaming'
+    'USERNAME' => 'Administrator'
+    'windows_tracing_logfile' => 'C:\\BVTBin\\Tests\\installpackage\\csilogfile.log'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'VISUALSVN_SERVER' => 'E:\\server\\An_Zhuang\\SVN\\svn_fu_wu_qi\\'
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files'
+    'Path' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;E:\\TortoiseSVN\\bin;E:\\server\\mysql\\bin;C:\\;rogram Files\\TortoiseGit\\bin;E:\\server\\安装软件\\SVN\\Git_lu_jin\\Git\\cmd;;E:\\server\\An_Zhuang\\SVN\\Git_lu_jin\\Git\\Git\\cmd;E:\\server\\An_Zhuang\\SVN\\svn_fu_wu_qi\\bin;E:\\server\\An_Zhuang\\redis\\windows\\redisbin64.rar.Win_lujing;E:\\server\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'OS' => 'Windows_NT'
+    'PROCESSOR_ARCHITEW6432' => 'AMD64'
+    'windows_tracing_flags' => '3'
+    'COMPUTERNAME' => 'PC201702091939'
+    'PROCESSOR_REVISION' => '3a09'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'DEVMGR_SHOW_DETAILS' => '1'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramW6432' => 'C:\\Program Files'
+    'HOMEPATH' => '\\Users\\Administrator'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'HOMEDRIVE' => 'C:'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 58 Stepping 9, GenuineIntel'
+    'USERPROFILE' => 'C:\\Users\\Administrator'
+    'TMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'ProgramFiles' => 'C:\\Program Files (x86)'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'windir' => 'C:\\Windows'
+    'YII_PATH' => 'E:\\server\\WWW\\yii2shop\\yii2shop\\'
+    'PHP_SELF' => 'E:\\server\\WWW\\yii2shop\\yii2shop\\yii'
+    'SCRIPT_NAME' => 'E:\\server\\WWW\\yii2shop\\yii2shop\\yii'
+    'SCRIPT_FILENAME' => 'E:\\server\\WWW\\yii2shop\\yii2shop\\yii'
+    'PATH_TRANSLATED' => 'E:\\server\\WWW\\yii2shop\\yii2shop\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1497578901.6231
+    'REQUEST_TIME' => 1497578901
+    'argv' => [
+        0 => 'E:\\server\\WWW\\yii2shop\\yii2shop\\yii'
+        1 => 'migrate'
+        2 => '--migrationPath=@yii/rbac/migrations'
+    ]
+    'argc' => 3
+]
+2017-06-16 10:13:47 [-][-][-][error][yii\base\InvalidConfigException] exception 'yii\base\InvalidConfigException' with message 'You should configure "authManager" component to use database before executing this migration.' in E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\rbac\migrations\m140506_102106_rbac_init.php:27
+Stack trace:
+#0 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\rbac\migrations\m140506_102106_rbac_init.php(45): m140506_102106_rbac_init->getAuthManager()
+#1 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(654): m140506_102106_rbac_init->up()
+#2 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(166): yii\console\controllers\BaseMigrateController->migrateUp('m140506_102106_...')
+#3 [internal function]: yii\console\controllers\BaseMigrateController->actionUp(0)
+#4 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#5 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#6 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\console\Controller.php(128): yii\base\Controller->runAction('', Array)
+#7 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\base\Module.php(523): yii\console\Controller->runAction('', Array)
+#8 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('migrate', Array)
+#9 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('migrate', Array)
+#10 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\base\Application.php(380): yii\console\Application->handleRequest(Object(yii\console\Request))
+#11 E:\server\WWW\yii2shop\yii2shop\yii(27): yii\base\Application->run()
+#12 {main}
+2017-06-16 10:13:44 [-][-][-][info][application] $_SERVER = [
+    'LOCALAPPDATA' => 'C:\\Users\\Administrator\\AppData\\Local'
+    'PHP_COMMAND' => 'php.exe'
+    'PROCESSOR_LEVEL' => '6'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'PROMPT' => '$P$G'
+    'USERDOMAIN' => 'PC201702091939'
+    'LOGONSERVER' => '\\\\PC201702091939'
+    'SESSIONNAME' => 'Console'
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PSModulePath' => 'C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\;E:\\server\\An_Zhuang\\SVN\\svn_fu_wu_qi\\PowerShellModules'
+    'SystemDrive' => 'C:'
+    'APPDATA' => 'C:\\Users\\Administrator\\AppData\\Roaming'
+    'USERNAME' => 'Administrator'
+    'windows_tracing_logfile' => 'C:\\BVTBin\\Tests\\installpackage\\csilogfile.log'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'VISUALSVN_SERVER' => 'E:\\server\\An_Zhuang\\SVN\\svn_fu_wu_qi\\'
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files'
+    'Path' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;E:\\TortoiseSVN\\bin;E:\\server\\mysql\\bin;C:\\;rogram Files\\TortoiseGit\\bin;E:\\server\\安装软件\\SVN\\Git_lu_jin\\Git\\cmd;;E:\\server\\An_Zhuang\\SVN\\Git_lu_jin\\Git\\Git\\cmd;E:\\server\\An_Zhuang\\SVN\\svn_fu_wu_qi\\bin;E:\\server\\An_Zhuang\\redis\\windows\\redisbin64.rar.Win_lujing;E:\\server\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'OS' => 'Windows_NT'
+    'PROCESSOR_ARCHITEW6432' => 'AMD64'
+    'windows_tracing_flags' => '3'
+    'COMPUTERNAME' => 'PC201702091939'
+    'PROCESSOR_REVISION' => '3a09'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'DEVMGR_SHOW_DETAILS' => '1'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramW6432' => 'C:\\Program Files'
+    'HOMEPATH' => '\\Users\\Administrator'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'HOMEDRIVE' => 'C:'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 58 Stepping 9, GenuineIntel'
+    'USERPROFILE' => 'C:\\Users\\Administrator'
+    'TMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'ProgramFiles' => 'C:\\Program Files (x86)'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'windir' => 'C:\\Windows'
+    'YII_PATH' => 'E:\\server\\WWW\\yii2shop\\yii2shop\\'
+    'PHP_SELF' => 'E:\\server\\WWW\\yii2shop\\yii2shop\\yii'
+    'SCRIPT_NAME' => 'E:\\server\\WWW\\yii2shop\\yii2shop\\yii'
+    'SCRIPT_FILENAME' => 'E:\\server\\WWW\\yii2shop\\yii2shop\\yii'
+    'PATH_TRANSLATED' => 'E:\\server\\WWW\\yii2shop\\yii2shop\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1497579224.5126
+    'REQUEST_TIME' => 1497579224
+    'argv' => [
+        0 => 'E:\\server\\WWW\\yii2shop\\yii2shop\\yii'
+        1 => 'migrate'
+        2 => '--migrationPath=@yii/rbac/migrations'
+    ]
+    'argc' => 3
+]
+2017-06-16 10:52:20 [-][-][-][error][yii\base\InvalidConfigException] exception 'yii\base\InvalidConfigException' with message 'You should configure "authManager" component to use database before executing this migration.' in E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\rbac\migrations\m140506_102106_rbac_init.php:27
+Stack trace:
+#0 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\rbac\migrations\m140506_102106_rbac_init.php(45): m140506_102106_rbac_init->getAuthManager()
+#1 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(654): m140506_102106_rbac_init->up()
+#2 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(166): yii\console\controllers\BaseMigrateController->migrateUp('m140506_102106_...')
+#3 [internal function]: yii\console\controllers\BaseMigrateController->actionUp(0)
+#4 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#5 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#6 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\console\Controller.php(128): yii\base\Controller->runAction('', Array)
+#7 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\base\Module.php(523): yii\console\Controller->runAction('', Array)
+#8 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('migrate', Array)
+#9 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('migrate', Array)
+#10 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\base\Application.php(380): yii\console\Application->handleRequest(Object(yii\console\Request))
+#11 E:\server\WWW\yii2shop\yii2shop\yii(27): yii\base\Application->run()
+#12 {main}
+2017-06-16 10:52:07 [-][-][-][info][application] $_SERVER = [
+    'LOCALAPPDATA' => 'C:\\Users\\Administrator\\AppData\\Local'
+    'PHP_COMMAND' => 'php.exe'
+    'PROCESSOR_LEVEL' => '6'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'PROMPT' => '$P$G'
+    'USERDOMAIN' => 'PC201702091939'
+    'LOGONSERVER' => '\\\\PC201702091939'
+    'SESSIONNAME' => 'Console'
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PSModulePath' => 'C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\;E:\\server\\An_Zhuang\\SVN\\svn_fu_wu_qi\\PowerShellModules'
+    'SystemDrive' => 'C:'
+    'APPDATA' => 'C:\\Users\\Administrator\\AppData\\Roaming'
+    'USERNAME' => 'Administrator'
+    'windows_tracing_logfile' => 'C:\\BVTBin\\Tests\\installpackage\\csilogfile.log'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'VISUALSVN_SERVER' => 'E:\\server\\An_Zhuang\\SVN\\svn_fu_wu_qi\\'
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files'
+    'Path' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;E:\\TortoiseSVN\\bin;E:\\server\\mysql\\bin;C:\\;rogram Files\\TortoiseGit\\bin;E:\\server\\安装软件\\SVN\\Git_lu_jin\\Git\\cmd;;E:\\server\\An_Zhuang\\SVN\\Git_lu_jin\\Git\\Git\\cmd;E:\\server\\An_Zhuang\\SVN\\svn_fu_wu_qi\\bin;E:\\server\\An_Zhuang\\redis\\windows\\redisbin64.rar.Win_lujing;E:\\server\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'OS' => 'Windows_NT'
+    'PROCESSOR_ARCHITEW6432' => 'AMD64'
+    'windows_tracing_flags' => '3'
+    'COMPUTERNAME' => 'PC201702091939'
+    'PROCESSOR_REVISION' => '3a09'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'DEVMGR_SHOW_DETAILS' => '1'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramW6432' => 'C:\\Program Files'
+    'HOMEPATH' => '\\Users\\Administrator'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'HOMEDRIVE' => 'C:'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 58 Stepping 9, GenuineIntel'
+    'USERPROFILE' => 'C:\\Users\\Administrator'
+    'TMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'ProgramFiles' => 'C:\\Program Files (x86)'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'windir' => 'C:\\Windows'
+    'YII_PATH' => 'E:\\server\\WWW\\yii2shop\\yii2shop\\'
+    'PHP_SELF' => 'E:\\server\\WWW\\yii2shop\\yii2shop\\yii'
+    'SCRIPT_NAME' => 'E:\\server\\WWW\\yii2shop\\yii2shop\\yii'
+    'SCRIPT_FILENAME' => 'E:\\server\\WWW\\yii2shop\\yii2shop\\yii'
+    'PATH_TRANSLATED' => 'E:\\server\\WWW\\yii2shop\\yii2shop\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1497581527.9513
+    'REQUEST_TIME' => 1497581527
+    'argv' => [
+        0 => 'E:\\server\\WWW\\yii2shop\\yii2shop\\yii'
+        1 => 'migrate'
+        2 => '--migrationPath=@yii/rbac/migrations'
+    ]
+    'argc' => 3
+]
+2017-06-16 10:53:24 [-][-][-][error][yii\base\InvalidConfigException] exception 'yii\base\InvalidConfigException' with message 'You should configure "authManager" component to use database before executing this migration.' in E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\rbac\migrations\m140506_102106_rbac_init.php:27
+Stack trace:
+#0 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\rbac\migrations\m140506_102106_rbac_init.php(45): m140506_102106_rbac_init->getAuthManager()
+#1 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(654): m140506_102106_rbac_init->up()
+#2 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(166): yii\console\controllers\BaseMigrateController->migrateUp('m140506_102106_...')
+#3 [internal function]: yii\console\controllers\BaseMigrateController->actionUp(0)
+#4 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#5 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#6 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\console\Controller.php(128): yii\base\Controller->runAction('', Array)
+#7 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\base\Module.php(523): yii\console\Controller->runAction('', Array)
+#8 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('migrate', Array)
+#9 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('migrate', Array)
+#10 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\base\Application.php(380): yii\console\Application->handleRequest(Object(yii\console\Request))
+#11 E:\server\WWW\yii2shop\yii2shop\yii(27): yii\base\Application->run()
+#12 {main}
+2017-06-16 10:53:21 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\Administrator\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'PC201702091939'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'DEVMGR_SHOW_DETAILS' => '1'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\Administrator'
+    'LOCALAPPDATA' => 'C:\\Users\\Administrator\\AppData\\Local'
+    'LOGONSERVER' => '\\\\PC201702091939'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;E:\\TortoiseSVN\\bin;E:\\server\\mysql\\bin;C:\\;rogram Files\\TortoiseGit\\bin;E:\\server\\安装软件\\SVN\\Git_lu_jin\\Git\\cmd;;E:\\server\\An_Zhuang\\SVN\\Git_lu_jin\\Git\\Git\\cmd;E:\\server\\An_Zhuang\\SVN\\svn_fu_wu_qi\\bin;E:\\server\\An_Zhuang\\redis\\windows\\redisbin64.rar.Win_lujing;E:\\server\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PHP_COMMAND' => 'php.exe'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_ARCHITEW6432' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 58 Stepping 9, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '3a09'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files (x86)'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\;E:\\server\\An_Zhuang\\SVN\\svn_fu_wu_qi\\PowerShellModules'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'PC201702091939'
+    'USERNAME' => 'Administrator'
+    'USERPROFILE' => 'C:\\Users\\Administrator'
+    'VISUALSVN_SERVER' => 'E:\\server\\An_Zhuang\\SVN\\svn_fu_wu_qi\\'
+    'windir' => 'C:\\Windows'
+    'windows_tracing_flags' => '3'
+    'windows_tracing_logfile' => 'C:\\BVTBin\\Tests\\installpackage\\csilogfile.log'
+    'YII_PATH' => 'E:\\server\\WWW\\yii2shop\\yii2shop\\'
+    'PHP_SELF' => 'E:\\server\\WWW\\yii2shop\\yii2shop\\yii'
+    'SCRIPT_NAME' => 'E:\\server\\WWW\\yii2shop\\yii2shop\\yii'
+    'SCRIPT_FILENAME' => 'E:\\server\\WWW\\yii2shop\\yii2shop\\yii'
+    'PATH_TRANSLATED' => 'E:\\server\\WWW\\yii2shop\\yii2shop\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1497581601.7765
+    'REQUEST_TIME' => 1497581601
+    'argv' => [
+        0 => 'E:\\server\\WWW\\yii2shop\\yii2shop\\yii'
+        1 => 'migrate'
+        2 => '--migrationPath=@yii/rbac/migrations'
+    ]
+    'argc' => 3
+]
+2017-06-16 10:54:52 [-][-][-][error][yii\base\InvalidConfigException] exception 'yii\base\InvalidConfigException' with message 'You should configure "authManager" component to use database before executing this migration.' in E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\rbac\migrations\m140506_102106_rbac_init.php:27
+Stack trace:
+#0 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\rbac\migrations\m140506_102106_rbac_init.php(45): m140506_102106_rbac_init->getAuthManager()
+#1 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(654): m140506_102106_rbac_init->up()
+#2 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(166): yii\console\controllers\BaseMigrateController->migrateUp('m140506_102106_...')
+#3 [internal function]: yii\console\controllers\BaseMigrateController->actionUp(0)
+#4 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#5 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#6 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\console\Controller.php(128): yii\base\Controller->runAction('', Array)
+#7 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\base\Module.php(523): yii\console\Controller->runAction('', Array)
+#8 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('migrate', Array)
+#9 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('migrate', Array)
+#10 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\base\Application.php(380): yii\console\Application->handleRequest(Object(yii\console\Request))
+#11 E:\server\WWW\yii2shop\yii2shop\yii(27): yii\base\Application->run()
+#12 {main}
+2017-06-16 10:54:50 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\Administrator\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'PC201702091939'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'DEVMGR_SHOW_DETAILS' => '1'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\Administrator'
+    'LOCALAPPDATA' => 'C:\\Users\\Administrator\\AppData\\Local'
+    'LOGONSERVER' => '\\\\PC201702091939'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;E:\\TortoiseSVN\\bin;E:\\server\\mysql\\bin;C:\\;rogram Files\\TortoiseGit\\bin;E:\\server\\安装软件\\SVN\\Git_lu_jin\\Git\\cmd;;E:\\server\\An_Zhuang\\SVN\\Git_lu_jin\\Git\\Git\\cmd;E:\\server\\An_Zhuang\\SVN\\svn_fu_wu_qi\\bin;E:\\server\\An_Zhuang\\redis\\windows\\redisbin64.rar.Win_lujing;E:\\server\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PHP_COMMAND' => 'php.exe'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_ARCHITEW6432' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 58 Stepping 9, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '3a09'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files (x86)'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\;E:\\server\\An_Zhuang\\SVN\\svn_fu_wu_qi\\PowerShellModules'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'PC201702091939'
+    'USERNAME' => 'Administrator'
+    'USERPROFILE' => 'C:\\Users\\Administrator'
+    'VISUALSVN_SERVER' => 'E:\\server\\An_Zhuang\\SVN\\svn_fu_wu_qi\\'
+    'windir' => 'C:\\Windows'
+    'windows_tracing_flags' => '3'
+    'windows_tracing_logfile' => 'C:\\BVTBin\\Tests\\installpackage\\csilogfile.log'
+    'YII_PATH' => 'E:\\server\\WWW\\yii2shop\\yii2shop\\'
+    'PHP_SELF' => 'E:\\server\\WWW\\yii2shop\\yii2shop\\yii'
+    'SCRIPT_NAME' => 'E:\\server\\WWW\\yii2shop\\yii2shop\\yii'
+    'SCRIPT_FILENAME' => 'E:\\server\\WWW\\yii2shop\\yii2shop\\yii'
+    'PATH_TRANSLATED' => 'E:\\server\\WWW\\yii2shop\\yii2shop\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1497581690.4856
+    'REQUEST_TIME' => 1497581690
+    'argv' => [
+        0 => 'E:\\server\\WWW\\yii2shop\\yii2shop\\yii'
+        1 => 'migrate'
+        2 => '--migrationPath=@yii/rbac/migrations'
+    ]
+    'argc' => 3
+]
+2017-06-16 13:38:18 [-][-][-][error][yii\base\InvalidConfigException] exception 'yii\base\InvalidConfigException' with message 'You should configure "authManager" component to use database before executing this migration.' in E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\rbac\migrations\m140506_102106_rbac_init.php:27
+Stack trace:
+#0 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\rbac\migrations\m140506_102106_rbac_init.php(45): m140506_102106_rbac_init->getAuthManager()
+#1 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(654): m140506_102106_rbac_init->up()
+#2 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(166): yii\console\controllers\BaseMigrateController->migrateUp('m140506_102106_...')
+#3 [internal function]: yii\console\controllers\BaseMigrateController->actionUp(0)
+#4 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#5 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#6 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\console\Controller.php(128): yii\base\Controller->runAction('', Array)
+#7 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\base\Module.php(523): yii\console\Controller->runAction('', Array)
+#8 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('migrate', Array)
+#9 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('migrate', Array)
+#10 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\base\Application.php(380): yii\console\Application->handleRequest(Object(yii\console\Request))
+#11 E:\server\WWW\yii2shop\yii2shop\yii(27): yii\base\Application->run()
+#12 {main}
+2017-06-16 13:38:16 [-][-][-][info][application] $_SERVER = [
+    'LOCALAPPDATA' => 'C:\\Users\\Administrator\\AppData\\Local'
+    'PHP_COMMAND' => 'php.exe'
+    'PROCESSOR_LEVEL' => '6'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'PROMPT' => '$P$G'
+    'USERDOMAIN' => 'PC201702091939'
+    'LOGONSERVER' => '\\\\PC201702091939'
+    'SESSIONNAME' => 'Console'
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PSModulePath' => 'C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\;E:\\server\\An_Zhuang\\SVN\\svn_fu_wu_qi\\PowerShellModules'
+    'SystemDrive' => 'C:'
+    'APPDATA' => 'C:\\Users\\Administrator\\AppData\\Roaming'
+    'USERNAME' => 'Administrator'
+    'windows_tracing_logfile' => 'C:\\BVTBin\\Tests\\installpackage\\csilogfile.log'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'VISUALSVN_SERVER' => 'E:\\server\\An_Zhuang\\SVN\\svn_fu_wu_qi\\'
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files'
+    'Path' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;E:\\TortoiseSVN\\bin;E:\\server\\mysql\\bin;C:\\;rogram Files\\TortoiseGit\\bin;E:\\server\\安装软件\\SVN\\Git_lu_jin\\Git\\cmd;;E:\\server\\An_Zhuang\\SVN\\Git_lu_jin\\Git\\Git\\cmd;E:\\server\\An_Zhuang\\SVN\\svn_fu_wu_qi\\bin;E:\\server\\An_Zhuang\\redis\\windows\\redisbin64.rar.Win_lujing;E:\\server\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'OS' => 'Windows_NT'
+    'PROCESSOR_ARCHITEW6432' => 'AMD64'
+    'windows_tracing_flags' => '3'
+    'COMPUTERNAME' => 'PC201702091939'
+    'PROCESSOR_REVISION' => '3a09'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'DEVMGR_SHOW_DETAILS' => '1'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramW6432' => 'C:\\Program Files'
+    'HOMEPATH' => '\\Users\\Administrator'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'HOMEDRIVE' => 'C:'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 58 Stepping 9, GenuineIntel'
+    'USERPROFILE' => 'C:\\Users\\Administrator'
+    'TMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'ProgramFiles' => 'C:\\Program Files (x86)'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'windir' => 'C:\\Windows'
+    'YII_PATH' => 'E:\\server\\WWW\\yii2shop\\yii2shop\\'
+    'PHP_SELF' => 'E:\\server\\WWW\\yii2shop\\yii2shop\\yii'
+    'SCRIPT_NAME' => 'E:\\server\\WWW\\yii2shop\\yii2shop\\yii'
+    'SCRIPT_FILENAME' => 'E:\\server\\WWW\\yii2shop\\yii2shop\\yii'
+    'PATH_TRANSLATED' => 'E:\\server\\WWW\\yii2shop\\yii2shop\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1497591496.4015
+    'REQUEST_TIME' => 1497591496
+    'argv' => [
+        0 => 'E:\\server\\WWW\\yii2shop\\yii2shop\\yii'
+        1 => 'migrate'
+        2 => '--migrationPath=@yii/rbac/migrations'
+    ]
+    'argc' => 3
+]
+2017-06-16 13:38:28 [-][-][-][error][yii\base\InvalidConfigException] exception 'yii\base\InvalidConfigException' with message 'You should configure "authManager" component to use database before executing this migration.' in E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\rbac\migrations\m140506_102106_rbac_init.php:27
+Stack trace:
+#0 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\rbac\migrations\m140506_102106_rbac_init.php(45): m140506_102106_rbac_init->getAuthManager()
+#1 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(654): m140506_102106_rbac_init->up()
+#2 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(166): yii\console\controllers\BaseMigrateController->migrateUp('m140506_102106_...')
+#3 [internal function]: yii\console\controllers\BaseMigrateController->actionUp(0)
+#4 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#5 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#6 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\console\Controller.php(128): yii\base\Controller->runAction('', Array)
+#7 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\base\Module.php(523): yii\console\Controller->runAction('', Array)
+#8 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('migrate', Array)
+#9 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('migrate', Array)
+#10 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\base\Application.php(380): yii\console\Application->handleRequest(Object(yii\console\Request))
+#11 E:\server\WWW\yii2shop\yii2shop\yii(27): yii\base\Application->run()
+#12 {main}
+2017-06-16 13:38:25 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\Administrator\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'PC201702091939'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'DEVMGR_SHOW_DETAILS' => '1'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\Administrator'
+    'LOCALAPPDATA' => 'C:\\Users\\Administrator\\AppData\\Local'
+    'LOGONSERVER' => '\\\\PC201702091939'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;E:\\TortoiseSVN\\bin;E:\\server\\mysql\\bin;C:\\;rogram Files\\TortoiseGit\\bin;E:\\server\\安装软件\\SVN\\Git_lu_jin\\Git\\cmd;;E:\\server\\An_Zhuang\\SVN\\Git_lu_jin\\Git\\Git\\cmd;E:\\server\\An_Zhuang\\SVN\\svn_fu_wu_qi\\bin;E:\\server\\An_Zhuang\\redis\\windows\\redisbin64.rar.Win_lujing;E:\\server\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PHP_COMMAND' => 'php.exe'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_ARCHITEW6432' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 58 Stepping 9, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '3a09'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files (x86)'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\;E:\\server\\An_Zhuang\\SVN\\svn_fu_wu_qi\\PowerShellModules'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'PC201702091939'
+    'USERNAME' => 'Administrator'
+    'USERPROFILE' => 'C:\\Users\\Administrator'
+    'VISUALSVN_SERVER' => 'E:\\server\\An_Zhuang\\SVN\\svn_fu_wu_qi\\'
+    'windir' => 'C:\\Windows'
+    'windows_tracing_flags' => '3'
+    'windows_tracing_logfile' => 'C:\\BVTBin\\Tests\\installpackage\\csilogfile.log'
+    'YII_PATH' => 'E:\\server\\WWW\\yii2shop\\yii2shop\\'
+    'PHP_SELF' => 'E:\\server\\WWW\\yii2shop\\yii2shop\\yii'
+    'SCRIPT_NAME' => 'E:\\server\\WWW\\yii2shop\\yii2shop\\yii'
+    'SCRIPT_FILENAME' => 'E:\\server\\WWW\\yii2shop\\yii2shop\\yii'
+    'PATH_TRANSLATED' => 'E:\\server\\WWW\\yii2shop\\yii2shop\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1497591505.606
+    'REQUEST_TIME' => 1497591505
+    'argv' => [
+        0 => 'E:\\server\\WWW\\yii2shop\\yii2shop\\yii'
+        1 => 'migrate'
+        2 => '--migrationPath=@yii/rbac/migrations'
+    ]
+    'argc' => 3
+]
+2017-06-19 04:11:22 [-][-][-][error][yii\console\UnknownCommandException] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "migerea".' in E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('migerea', Array)
+#1 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('migerea', Array)
+#2 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\base\Application.php(380): yii\console\Application->handleRequest(Object(yii\console\Request))
+#3 E:\server\WWW\yii2shop\yii2shop\yii(27): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\console\UnknownCommandException' with message 'Unknown command "migerea".' in E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\console\Application.php:183
+Stack trace:
+#0 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('migerea', Array)
+#1 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\base\Application.php(380): yii\console\Application->handleRequest(Object(yii\console\Request))
+#2 E:\server\WWW\yii2shop\yii2shop\yii(27): yii\base\Application->run()
+#3 {main}
+2017-06-19 04:11:21 [-][-][-][info][application] $_SERVER = [
+    'LOCALAPPDATA' => 'C:\\Users\\Administrator\\AppData\\Local'
+    'PHP_COMMAND' => 'php.exe'
+    'PROCESSOR_LEVEL' => '6'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'PROMPT' => '$P$G'
+    'USERDOMAIN' => 'PC201702091939'
+    'LOGONSERVER' => '\\\\PC201702091939'
+    'SESSIONNAME' => 'Console'
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PSModulePath' => 'C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\;E:\\server\\An_Zhuang\\SVN\\svn_fu_wu_qi\\PowerShellModules'
+    'SystemDrive' => 'C:'
+    'APPDATA' => 'C:\\Users\\Administrator\\AppData\\Roaming'
+    'USERNAME' => 'Administrator'
+    'windows_tracing_logfile' => 'C:\\BVTBin\\Tests\\installpackage\\csilogfile.log'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'VISUALSVN_SERVER' => 'E:\\server\\An_Zhuang\\SVN\\svn_fu_wu_qi\\'
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files'
+    'Path' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;E:\\TortoiseSVN\\bin;E:\\server\\mysql\\bin;C:\\;rogram Files\\TortoiseGit\\bin;E:\\server\\安装软件\\SVN\\Git_lu_jin\\Git\\cmd;;E:\\server\\An_Zhuang\\SVN\\Git_lu_jin\\Git\\Git\\cmd;E:\\server\\An_Zhuang\\SVN\\svn_fu_wu_qi\\bin;E:\\server\\An_Zhuang\\redis\\windows\\redisbin64.rar.Win_lujing;C:\\ProgramData\\ComposerSetup\\bin;E:\\phpStudy\\php\\php-5.6.27-nts\\php;E:\\phpStudy\\php\\php-5.6.27-nts;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'OS' => 'Windows_NT'
+    'PROCESSOR_ARCHITEW6432' => 'AMD64'
+    'windows_tracing_flags' => '3'
+    'COMPUTERNAME' => 'PC201702091939'
+    'PROCESSOR_REVISION' => '3a09'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'DEVMGR_SHOW_DETAILS' => '1'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramW6432' => 'C:\\Program Files'
+    'HOMEPATH' => '\\Users\\Administrator'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'HOMEDRIVE' => 'C:'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 58 Stepping 9, GenuineIntel'
+    'USERPROFILE' => 'C:\\Users\\Administrator'
+    'TMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'ProgramFiles' => 'C:\\Program Files (x86)'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'windir' => 'C:\\Windows'
+    'YII_PATH' => 'E:\\server\\WWW\\yii2shop\\yii2shop\\'
+    'PHP_SELF' => 'E:\\server\\WWW\\yii2shop\\yii2shop\\yii'
+    'SCRIPT_NAME' => 'E:\\server\\WWW\\yii2shop\\yii2shop\\yii'
+    'SCRIPT_FILENAME' => 'E:\\server\\WWW\\yii2shop\\yii2shop\\yii'
+    'PATH_TRANSLATED' => 'E:\\server\\WWW\\yii2shop\\yii2shop\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1497845481.8635
+    'REQUEST_TIME' => 1497845481
+    'argv' => [
+        0 => 'E:\\server\\WWW\\yii2shop\\yii2shop\\yii'
+        1 => 'migerea'
+        2 => 'up'
+    ]
+    'argc' => 3
+]
+2017-06-19 04:11:43 [-][-][-][error][yii\console\UnknownCommandException] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "migrea".' in E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('migrea', Array)
+#1 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('migrea', Array)
+#2 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\base\Application.php(380): yii\console\Application->handleRequest(Object(yii\console\Request))
+#3 E:\server\WWW\yii2shop\yii2shop\yii(27): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\console\UnknownCommandException' with message 'Unknown command "migrea".' in E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\console\Application.php:183
+Stack trace:
+#0 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('migrea', Array)
+#1 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\base\Application.php(380): yii\console\Application->handleRequest(Object(yii\console\Request))
+#2 E:\server\WWW\yii2shop\yii2shop\yii(27): yii\base\Application->run()
+#3 {main}
+2017-06-19 04:11:43 [-][-][-][info][application] $_SERVER = [
+    'LOCALAPPDATA' => 'C:\\Users\\Administrator\\AppData\\Local'
+    'PHP_COMMAND' => 'php.exe'
+    'PROCESSOR_LEVEL' => '6'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'PROMPT' => '$P$G'
+    'USERDOMAIN' => 'PC201702091939'
+    'LOGONSERVER' => '\\\\PC201702091939'
+    'SESSIONNAME' => 'Console'
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PSModulePath' => 'C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\;E:\\server\\An_Zhuang\\SVN\\svn_fu_wu_qi\\PowerShellModules'
+    'SystemDrive' => 'C:'
+    'APPDATA' => 'C:\\Users\\Administrator\\AppData\\Roaming'
+    'USERNAME' => 'Administrator'
+    'windows_tracing_logfile' => 'C:\\BVTBin\\Tests\\installpackage\\csilogfile.log'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'VISUALSVN_SERVER' => 'E:\\server\\An_Zhuang\\SVN\\svn_fu_wu_qi\\'
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files'
+    'Path' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;E:\\TortoiseSVN\\bin;E:\\server\\mysql\\bin;C:\\;rogram Files\\TortoiseGit\\bin;E:\\server\\安装软件\\SVN\\Git_lu_jin\\Git\\cmd;;E:\\server\\An_Zhuang\\SVN\\Git_lu_jin\\Git\\Git\\cmd;E:\\server\\An_Zhuang\\SVN\\svn_fu_wu_qi\\bin;E:\\server\\An_Zhuang\\redis\\windows\\redisbin64.rar.Win_lujing;C:\\ProgramData\\ComposerSetup\\bin;E:\\phpStudy\\php\\php-5.6.27-nts\\php;E:\\phpStudy\\php\\php-5.6.27-nts;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'OS' => 'Windows_NT'
+    'PROCESSOR_ARCHITEW6432' => 'AMD64'
+    'windows_tracing_flags' => '3'
+    'COMPUTERNAME' => 'PC201702091939'
+    'PROCESSOR_REVISION' => '3a09'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'DEVMGR_SHOW_DETAILS' => '1'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramW6432' => 'C:\\Program Files'
+    'HOMEPATH' => '\\Users\\Administrator'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'HOMEDRIVE' => 'C:'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 58 Stepping 9, GenuineIntel'
+    'USERPROFILE' => 'C:\\Users\\Administrator'
+    'TMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'ProgramFiles' => 'C:\\Program Files (x86)'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'windir' => 'C:\\Windows'
+    'YII_PATH' => 'E:\\server\\WWW\\yii2shop\\yii2shop\\'
+    'PHP_SELF' => 'E:\\server\\WWW\\yii2shop\\yii2shop\\yii'
+    'SCRIPT_NAME' => 'E:\\server\\WWW\\yii2shop\\yii2shop\\yii'
+    'SCRIPT_FILENAME' => 'E:\\server\\WWW\\yii2shop\\yii2shop\\yii'
+    'PATH_TRANSLATED' => 'E:\\server\\WWW\\yii2shop\\yii2shop\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1497845503.6727
+    'REQUEST_TIME' => 1497845503
+    'argv' => [
+        0 => 'E:\\server\\WWW\\yii2shop\\yii2shop\\yii'
+        1 => 'migrea'
+        2 => 'up'
+    ]
+    'argc' => 3
+]
+2017-06-19 04:12:16 [-][-][-][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[HY000] [2002] 由于目标计算机积极拒绝，无法连接。
+' in E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\db\Connection.php:630
+Stack trace:
+#0 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\db\Connection.php(630): PDO->__construct('mysql:host=127....', 'root', 'root', NULL)
+#1 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\db\Connection.php(563): yii\db\Connection->createPdoInstance()
+#2 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\db\Connection.php(896): yii\db\Connection->open()
+#3 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\db\Connection.php(883): yii\db\Connection->getMasterPdo()
+#4 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\db\Command.php(219): yii\db\Connection->getSlavePdo()
+#5 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\db\Command.php(896): yii\db\Command->prepare(true)
+#6 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\db\Command.php(362): yii\db\Command->queryInternal('fetchAll', NULL)
+#7 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\db\mysql\Schema.php(199): yii\db\Command->queryAll()
+#8 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\db\mysql\Schema.php(98): yii\db\mysql\Schema->findColumns(Object(yii\db\TableSchema))
+#9 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\db\Schema.php(152): yii\db\mysql\Schema->loadTableSchema('migration')
+#10 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\console\controllers\MigrateController.php(199): yii\db\Schema->getTableSchema('{{%migration}}', true)
+#11 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(774): yii\console\controllers\MigrateController->getMigrationHistory(NULL)
+#12 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(138): yii\console\controllers\BaseMigrateController->getNewMigrations()
+#13 [internal function]: yii\console\controllers\BaseMigrateController->actionUp('up')
+#14 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#15 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#16 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\console\Controller.php(128): yii\base\Controller->runAction('', Array)
+#17 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\base\Module.php(523): yii\console\Controller->runAction('', Array)
+#18 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('migrate', Array)
+#19 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('migrate', Array)
+#20 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\base\Application.php(380): yii\console\Application->handleRequest(Object(yii\console\Request))
+#21 E:\server\WWW\yii2shop\yii2shop\yii(27): yii\base\Application->run()
+#22 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[HY000] [2002] 由于目标计算机积极拒绝，无法连接。
+' in E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\db\Connection.php:568
+Stack trace:
+#0 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\db\Connection.php(896): yii\db\Connection->open()
+#1 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\db\Connection.php(883): yii\db\Connection->getMasterPdo()
+#2 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\db\Command.php(219): yii\db\Connection->getSlavePdo()
+#3 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\db\Command.php(896): yii\db\Command->prepare(true)
+#4 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\db\Command.php(362): yii\db\Command->queryInternal('fetchAll', NULL)
+#5 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\db\mysql\Schema.php(199): yii\db\Command->queryAll()
+#6 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\db\mysql\Schema.php(98): yii\db\mysql\Schema->findColumns(Object(yii\db\TableSchema))
+#7 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\db\Schema.php(152): yii\db\mysql\Schema->loadTableSchema('migration')
+#8 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\console\controllers\MigrateController.php(199): yii\db\Schema->getTableSchema('{{%migration}}', true)
+#9 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(774): yii\console\controllers\MigrateController->getMigrationHistory(NULL)
+#10 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(138): yii\console\controllers\BaseMigrateController->getNewMigrations()
+#11 [internal function]: yii\console\controllers\BaseMigrateController->actionUp('up')
+#12 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#13 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#14 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\console\Controller.php(128): yii\base\Controller->runAction('', Array)
+#15 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\base\Module.php(523): yii\console\Controller->runAction('', Array)
+#16 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('migrate', Array)
+#17 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('migrate', Array)
+#18 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\base\Application.php(380): yii\console\Application->handleRequest(Object(yii\console\Request))
+#19 E:\server\WWW\yii2shop\yii2shop\yii(27): yii\base\Application->run()
+#20 {main}
+Additional Information:
+
+2017-06-19 04:12:15 [-][-][-][info][application] $_SERVER = [
+    'LOCALAPPDATA' => 'C:\\Users\\Administrator\\AppData\\Local'
+    'PHP_COMMAND' => 'php.exe'
+    'PROCESSOR_LEVEL' => '6'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'PROMPT' => '$P$G'
+    'USERDOMAIN' => 'PC201702091939'
+    'LOGONSERVER' => '\\\\PC201702091939'
+    'SESSIONNAME' => 'Console'
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PSModulePath' => 'C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\;E:\\server\\An_Zhuang\\SVN\\svn_fu_wu_qi\\PowerShellModules'
+    'SystemDrive' => 'C:'
+    'APPDATA' => 'C:\\Users\\Administrator\\AppData\\Roaming'
+    'USERNAME' => 'Administrator'
+    'windows_tracing_logfile' => 'C:\\BVTBin\\Tests\\installpackage\\csilogfile.log'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'VISUALSVN_SERVER' => 'E:\\server\\An_Zhuang\\SVN\\svn_fu_wu_qi\\'
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files'
+    'Path' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;E:\\TortoiseSVN\\bin;E:\\server\\mysql\\bin;C:\\;rogram Files\\TortoiseGit\\bin;E:\\server\\安装软件\\SVN\\Git_lu_jin\\Git\\cmd;;E:\\server\\An_Zhuang\\SVN\\Git_lu_jin\\Git\\Git\\cmd;E:\\server\\An_Zhuang\\SVN\\svn_fu_wu_qi\\bin;E:\\server\\An_Zhuang\\redis\\windows\\redisbin64.rar.Win_lujing;C:\\ProgramData\\ComposerSetup\\bin;E:\\phpStudy\\php\\php-5.6.27-nts\\php;E:\\phpStudy\\php\\php-5.6.27-nts;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'OS' => 'Windows_NT'
+    'PROCESSOR_ARCHITEW6432' => 'AMD64'
+    'windows_tracing_flags' => '3'
+    'COMPUTERNAME' => 'PC201702091939'
+    'PROCESSOR_REVISION' => '3a09'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'DEVMGR_SHOW_DETAILS' => '1'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramW6432' => 'C:\\Program Files'
+    'HOMEPATH' => '\\Users\\Administrator'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'HOMEDRIVE' => 'C:'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 58 Stepping 9, GenuineIntel'
+    'USERPROFILE' => 'C:\\Users\\Administrator'
+    'TMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'ProgramFiles' => 'C:\\Program Files (x86)'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'windir' => 'C:\\Windows'
+    'YII_PATH' => 'E:\\server\\WWW\\yii2shop\\yii2shop\\'
+    'PHP_SELF' => 'E:\\server\\WWW\\yii2shop\\yii2shop\\yii'
+    'SCRIPT_NAME' => 'E:\\server\\WWW\\yii2shop\\yii2shop\\yii'
+    'SCRIPT_FILENAME' => 'E:\\server\\WWW\\yii2shop\\yii2shop\\yii'
+    'PATH_TRANSLATED' => 'E:\\server\\WWW\\yii2shop\\yii2shop\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1497845534.9985
+    'REQUEST_TIME' => 1497845534
+    'argv' => [
+        0 => 'E:\\server\\WWW\\yii2shop\\yii2shop\\yii'
+        1 => 'migrate'
+        2 => 'up'
+    ]
+    'argc' => 3
+]
+2017-06-21 02:17:23 [-][-][-][error][yii\console\UnknownCommandException] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "mnigrate".' in E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('mnigrate', Array)
+#1 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('mnigrate', Array)
+#2 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\base\Application.php(380): yii\console\Application->handleRequest(Object(yii\console\Request))
+#3 E:\server\WWW\yii2shop\yii2shop\yii(27): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\console\UnknownCommandException' with message 'Unknown command "mnigrate".' in E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\console\Application.php:183
+Stack trace:
+#0 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('mnigrate', Array)
+#1 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\base\Application.php(380): yii\console\Application->handleRequest(Object(yii\console\Request))
+#2 E:\server\WWW\yii2shop\yii2shop\yii(27): yii\base\Application->run()
+#3 {main}
+2017-06-21 02:17:23 [-][-][-][info][application] $_SERVER = [
+    'LOCALAPPDATA' => 'C:\\Users\\Administrator\\AppData\\Local'
+    'PHP_COMMAND' => 'php.exe'
+    'PROCESSOR_LEVEL' => '6'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'PROMPT' => '$P$G'
+    'USERDOMAIN' => 'PC201702091939'
+    'LOGONSERVER' => '\\\\PC201702091939'
+    'SESSIONNAME' => 'Console'
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PSModulePath' => 'C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\;E:\\server\\An_Zhuang\\SVN\\svn_fu_wu_qi\\PowerShellModules'
+    'SystemDrive' => 'C:'
+    'APPDATA' => 'C:\\Users\\Administrator\\AppData\\Roaming'
+    'USERNAME' => 'Administrator'
+    'windows_tracing_logfile' => 'C:\\BVTBin\\Tests\\installpackage\\csilogfile.log'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'VISUALSVN_SERVER' => 'E:\\server\\An_Zhuang\\SVN\\svn_fu_wu_qi\\'
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files'
+    'Path' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;E:\\TortoiseSVN\\bin;E:\\server\\mysql\\bin;C:\\;rogram Files\\TortoiseGit\\bin;E:\\server\\安装软件\\SVN\\Git_lu_jin\\Git\\cmd;;E:\\server\\An_Zhuang\\SVN\\Git_lu_jin\\Git\\Git\\cmd;E:\\server\\An_Zhuang\\SVN\\svn_fu_wu_qi\\bin;E:\\server\\An_Zhuang\\redis\\windows\\redisbin64.rar.Win_lujing;C:\\ProgramData\\ComposerSetup\\bin;E:\\phpStudy\\php\\php-5.6.27-nts\\php;E:\\phpStudy\\php\\php-5.6.27-nts;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'OS' => 'Windows_NT'
+    'PROCESSOR_ARCHITEW6432' => 'AMD64'
+    'windows_tracing_flags' => '3'
+    'COMPUTERNAME' => 'PC201702091939'
+    'PROCESSOR_REVISION' => '3a09'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'DEVMGR_SHOW_DETAILS' => '1'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramW6432' => 'C:\\Program Files'
+    'HOMEPATH' => '\\Users\\Administrator'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'HOMEDRIVE' => 'C:'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 58 Stepping 9, GenuineIntel'
+    'USERPROFILE' => 'C:\\Users\\Administrator'
+    'TMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'ProgramFiles' => 'C:\\Program Files (x86)'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'windir' => 'C:\\Windows'
+    'YII_PATH' => 'E:\\server\\WWW\\yii2shop\\yii2shop\\'
+    'PHP_SELF' => 'E:\\server\\WWW\\yii2shop\\yii2shop\\yii'
+    'SCRIPT_NAME' => 'E:\\server\\WWW\\yii2shop\\yii2shop\\yii'
+    'SCRIPT_FILENAME' => 'E:\\server\\WWW\\yii2shop\\yii2shop\\yii'
+    'PATH_TRANSLATED' => 'E:\\server\\WWW\\yii2shop\\yii2shop\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1498011443.2591
+    'REQUEST_TIME' => 1498011443
+    'argv' => [
+        0 => 'E:\\server\\WWW\\yii2shop\\yii2shop\\yii'
+        1 => 'mnigrate'
+        2 => 'up'
+    ]
+    'argc' => 3
+]
+2017-06-21 02:18:14 [-][-][-][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[HY000] [2002] 由于目标计算机积极拒绝，无法连接。
+' in E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\db\Connection.php:630
+Stack trace:
+#0 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\db\Connection.php(630): PDO->__construct('mysql:host=127....', 'root', 'root', NULL)
+#1 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\db\Connection.php(563): yii\db\Connection->createPdoInstance()
+#2 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\db\Connection.php(896): yii\db\Connection->open()
+#3 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\db\Connection.php(883): yii\db\Connection->getMasterPdo()
+#4 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\db\Command.php(219): yii\db\Connection->getSlavePdo()
+#5 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\db\Command.php(896): yii\db\Command->prepare(true)
+#6 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\db\Command.php(362): yii\db\Command->queryInternal('fetchAll', NULL)
+#7 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\db\mysql\Schema.php(199): yii\db\Command->queryAll()
+#8 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\db\mysql\Schema.php(98): yii\db\mysql\Schema->findColumns(Object(yii\db\TableSchema))
+#9 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\db\Schema.php(152): yii\db\mysql\Schema->loadTableSchema('migration')
+#10 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\console\controllers\MigrateController.php(199): yii\db\Schema->getTableSchema('{{%migration}}', true)
+#11 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(774): yii\console\controllers\MigrateController->getMigrationHistory(NULL)
+#12 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(138): yii\console\controllers\BaseMigrateController->getNewMigrations()
+#13 [internal function]: yii\console\controllers\BaseMigrateController->actionUp('up')
+#14 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#15 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#16 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\console\Controller.php(128): yii\base\Controller->runAction('', Array)
+#17 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\base\Module.php(523): yii\console\Controller->runAction('', Array)
+#18 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('migrate', Array)
+#19 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('migrate', Array)
+#20 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\base\Application.php(380): yii\console\Application->handleRequest(Object(yii\console\Request))
+#21 E:\server\WWW\yii2shop\yii2shop\yii(27): yii\base\Application->run()
+#22 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[HY000] [2002] 由于目标计算机积极拒绝，无法连接。
+' in E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\db\Connection.php:568
+Stack trace:
+#0 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\db\Connection.php(896): yii\db\Connection->open()
+#1 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\db\Connection.php(883): yii\db\Connection->getMasterPdo()
+#2 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\db\Command.php(219): yii\db\Connection->getSlavePdo()
+#3 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\db\Command.php(896): yii\db\Command->prepare(true)
+#4 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\db\Command.php(362): yii\db\Command->queryInternal('fetchAll', NULL)
+#5 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\db\mysql\Schema.php(199): yii\db\Command->queryAll()
+#6 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\db\mysql\Schema.php(98): yii\db\mysql\Schema->findColumns(Object(yii\db\TableSchema))
+#7 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\db\Schema.php(152): yii\db\mysql\Schema->loadTableSchema('migration')
+#8 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\console\controllers\MigrateController.php(199): yii\db\Schema->getTableSchema('{{%migration}}', true)
+#9 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(774): yii\console\controllers\MigrateController->getMigrationHistory(NULL)
+#10 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(138): yii\console\controllers\BaseMigrateController->getNewMigrations()
+#11 [internal function]: yii\console\controllers\BaseMigrateController->actionUp('up')
+#12 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#13 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#14 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\console\Controller.php(128): yii\base\Controller->runAction('', Array)
+#15 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\base\Module.php(523): yii\console\Controller->runAction('', Array)
+#16 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('migrate', Array)
+#17 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('migrate', Array)
+#18 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\base\Application.php(380): yii\console\Application->handleRequest(Object(yii\console\Request))
+#19 E:\server\WWW\yii2shop\yii2shop\yii(27): yii\base\Application->run()
+#20 {main}
+Additional Information:
+
+2017-06-21 02:18:13 [-][-][-][info][application] $_SERVER = [
+    'LOCALAPPDATA' => 'C:\\Users\\Administrator\\AppData\\Local'
+    'PHP_COMMAND' => 'php.exe'
+    'PROCESSOR_LEVEL' => '6'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'PROMPT' => '$P$G'
+    'USERDOMAIN' => 'PC201702091939'
+    'LOGONSERVER' => '\\\\PC201702091939'
+    'SESSIONNAME' => 'Console'
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PSModulePath' => 'C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\;E:\\server\\An_Zhuang\\SVN\\svn_fu_wu_qi\\PowerShellModules'
+    'SystemDrive' => 'C:'
+    'APPDATA' => 'C:\\Users\\Administrator\\AppData\\Roaming'
+    'USERNAME' => 'Administrator'
+    'windows_tracing_logfile' => 'C:\\BVTBin\\Tests\\installpackage\\csilogfile.log'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'VISUALSVN_SERVER' => 'E:\\server\\An_Zhuang\\SVN\\svn_fu_wu_qi\\'
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files'
+    'Path' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;E:\\TortoiseSVN\\bin;E:\\server\\mysql\\bin;C:\\;rogram Files\\TortoiseGit\\bin;E:\\server\\安装软件\\SVN\\Git_lu_jin\\Git\\cmd;;E:\\server\\An_Zhuang\\SVN\\Git_lu_jin\\Git\\Git\\cmd;E:\\server\\An_Zhuang\\SVN\\svn_fu_wu_qi\\bin;E:\\server\\An_Zhuang\\redis\\windows\\redisbin64.rar.Win_lujing;C:\\ProgramData\\ComposerSetup\\bin;E:\\phpStudy\\php\\php-5.6.27-nts\\php;E:\\phpStudy\\php\\php-5.6.27-nts;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'OS' => 'Windows_NT'
+    'PROCESSOR_ARCHITEW6432' => 'AMD64'
+    'windows_tracing_flags' => '3'
+    'COMPUTERNAME' => 'PC201702091939'
+    'PROCESSOR_REVISION' => '3a09'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'DEVMGR_SHOW_DETAILS' => '1'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramW6432' => 'C:\\Program Files'
+    'HOMEPATH' => '\\Users\\Administrator'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'HOMEDRIVE' => 'C:'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 58 Stepping 9, GenuineIntel'
+    'USERPROFILE' => 'C:\\Users\\Administrator'
+    'TMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'ProgramFiles' => 'C:\\Program Files (x86)'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'windir' => 'C:\\Windows'
+    'YII_PATH' => 'E:\\server\\WWW\\yii2shop\\yii2shop\\'
+    'PHP_SELF' => 'E:\\server\\WWW\\yii2shop\\yii2shop\\yii'
+    'SCRIPT_NAME' => 'E:\\server\\WWW\\yii2shop\\yii2shop\\yii'
+    'SCRIPT_FILENAME' => 'E:\\server\\WWW\\yii2shop\\yii2shop\\yii'
+    'PATH_TRANSLATED' => 'E:\\server\\WWW\\yii2shop\\yii2shop\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1498011493.857
+    'REQUEST_TIME' => 1498011493
+    'argv' => [
+        0 => 'E:\\server\\WWW\\yii2shop\\yii2shop\\yii'
+        1 => 'migrate'
+        2 => 'up'
+    ]
+    'argc' => 3
+]
+2017-06-24 01:06:25 [-][-][-][error][yii\console\UnknownCommandException] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "migerate/table".' in E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('migerate/table', Array)
+#1 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('migerate/table', Array)
+#2 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\base\Application.php(380): yii\console\Application->handleRequest(Object(yii\console\Request))
+#3 E:\server\WWW\yii2shop\yii2shop\yii(27): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\console\UnknownCommandException' with message 'Unknown command "migerate/table".' in E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\console\Application.php:183
+Stack trace:
+#0 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('migerate/table', Array)
+#1 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\base\Application.php(380): yii\console\Application->handleRequest(Object(yii\console\Request))
+#2 E:\server\WWW\yii2shop\yii2shop\yii(27): yii\base\Application->run()
+#3 {main}
+2017-06-24 01:06:25 [-][-][-][info][application] $_SERVER = [
+    'LOCALAPPDATA' => 'C:\\Users\\Administrator\\AppData\\Local'
+    'PHP_COMMAND' => 'php.exe'
+    'PROCESSOR_LEVEL' => '6'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'PROMPT' => '$P$G'
+    'USERDOMAIN' => 'PC201702091939'
+    'LOGONSERVER' => '\\\\PC201702091939'
+    'SESSIONNAME' => 'Console'
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PSModulePath' => 'C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\;E:\\server\\An_Zhuang\\SVN\\svn_fu_wu_qi\\PowerShellModules'
+    'SystemDrive' => 'C:'
+    'APPDATA' => 'C:\\Users\\Administrator\\AppData\\Roaming'
+    'USERNAME' => 'Administrator'
+    'windows_tracing_logfile' => 'C:\\BVTBin\\Tests\\installpackage\\csilogfile.log'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'VISUALSVN_SERVER' => 'E:\\server\\An_Zhuang\\SVN\\svn_fu_wu_qi\\'
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files'
+    'Path' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;E:\\TortoiseSVN\\bin;E:\\server\\mysql\\bin;C:\\;rogram Files\\TortoiseGit\\bin;E:\\server\\安装软件\\SVN\\Git_lu_jin\\Git\\cmd;;E:\\server\\An_Zhuang\\SVN\\Git_lu_jin\\Git\\Git\\cmd;E:\\server\\An_Zhuang\\SVN\\svn_fu_wu_qi\\bin;E:\\server\\An_Zhuang\\redis\\windows\\redisbin64.rar.Win_lujing;C:\\ProgramData\\ComposerSetup\\bin;E:\\phpStudy\\php\\php-5.6.27-nts\\php;E:\\phpStudy\\php\\php-5.6.27-nts;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'OS' => 'Windows_NT'
+    'PROCESSOR_ARCHITEW6432' => 'AMD64'
+    'windows_tracing_flags' => '3'
+    'COMPUTERNAME' => 'PC201702091939'
+    'PROCESSOR_REVISION' => '3a09'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'DEVMGR_SHOW_DETAILS' => '1'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramW6432' => 'C:\\Program Files'
+    'HOMEPATH' => '\\Users\\Administrator'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'HOMEDRIVE' => 'C:'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 58 Stepping 9, GenuineIntel'
+    'USERPROFILE' => 'C:\\Users\\Administrator'
+    'TMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'ProgramFiles' => 'C:\\Program Files (x86)'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'windir' => 'C:\\Windows'
+    'YII_PATH' => 'E:\\server\\WWW\\yii2shop\\yii2shop\\'
+    'PHP_SELF' => 'E:\\server\\WWW\\yii2shop\\yii2shop\\yii'
+    'SCRIPT_NAME' => 'E:\\server\\WWW\\yii2shop\\yii2shop\\yii'
+    'SCRIPT_FILENAME' => 'E:\\server\\WWW\\yii2shop\\yii2shop\\yii'
+    'PATH_TRANSLATED' => 'E:\\server\\WWW\\yii2shop\\yii2shop\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1498266385.618
+    'REQUEST_TIME' => 1498266385
+    'argv' => [
+        0 => 'E:\\server\\WWW\\yii2shop\\yii2shop\\yii'
+        1 => 'migerate/table'
+        2 => 'table_cart_atble'
+    ]
+    'argc' => 3
+]
+2017-06-24 01:07:00 [-][-][-][error][yii\console\UnknownCommandException] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "migreat/table".' in E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('migreat/table', Array)
+#1 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('migreat/table', Array)
+#2 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\base\Application.php(380): yii\console\Application->handleRequest(Object(yii\console\Request))
+#3 E:\server\WWW\yii2shop\yii2shop\yii(27): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\console\UnknownCommandException' with message 'Unknown command "migreat/table".' in E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\console\Application.php:183
+Stack trace:
+#0 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('migreat/table', Array)
+#1 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\base\Application.php(380): yii\console\Application->handleRequest(Object(yii\console\Request))
+#2 E:\server\WWW\yii2shop\yii2shop\yii(27): yii\base\Application->run()
+#3 {main}
+2017-06-24 01:07:00 [-][-][-][info][application] $_SERVER = [
+    'LOCALAPPDATA' => 'C:\\Users\\Administrator\\AppData\\Local'
+    'PHP_COMMAND' => 'php.exe'
+    'PROCESSOR_LEVEL' => '6'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'PROMPT' => '$P$G'
+    'USERDOMAIN' => 'PC201702091939'
+    'LOGONSERVER' => '\\\\PC201702091939'
+    'SESSIONNAME' => 'Console'
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PSModulePath' => 'C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\;E:\\server\\An_Zhuang\\SVN\\svn_fu_wu_qi\\PowerShellModules'
+    'SystemDrive' => 'C:'
+    'APPDATA' => 'C:\\Users\\Administrator\\AppData\\Roaming'
+    'USERNAME' => 'Administrator'
+    'windows_tracing_logfile' => 'C:\\BVTBin\\Tests\\installpackage\\csilogfile.log'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'VISUALSVN_SERVER' => 'E:\\server\\An_Zhuang\\SVN\\svn_fu_wu_qi\\'
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files'
+    'Path' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;E:\\TortoiseSVN\\bin;E:\\server\\mysql\\bin;C:\\;rogram Files\\TortoiseGit\\bin;E:\\server\\安装软件\\SVN\\Git_lu_jin\\Git\\cmd;;E:\\server\\An_Zhuang\\SVN\\Git_lu_jin\\Git\\Git\\cmd;E:\\server\\An_Zhuang\\SVN\\svn_fu_wu_qi\\bin;E:\\server\\An_Zhuang\\redis\\windows\\redisbin64.rar.Win_lujing;C:\\ProgramData\\ComposerSetup\\bin;E:\\phpStudy\\php\\php-5.6.27-nts\\php;E:\\phpStudy\\php\\php-5.6.27-nts;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'OS' => 'Windows_NT'
+    'PROCESSOR_ARCHITEW6432' => 'AMD64'
+    'windows_tracing_flags' => '3'
+    'COMPUTERNAME' => 'PC201702091939'
+    'PROCESSOR_REVISION' => '3a09'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'DEVMGR_SHOW_DETAILS' => '1'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramW6432' => 'C:\\Program Files'
+    'HOMEPATH' => '\\Users\\Administrator'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'HOMEDRIVE' => 'C:'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 58 Stepping 9, GenuineIntel'
+    'USERPROFILE' => 'C:\\Users\\Administrator'
+    'TMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'ProgramFiles' => 'C:\\Program Files (x86)'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'windir' => 'C:\\Windows'
+    'YII_PATH' => 'E:\\server\\WWW\\yii2shop\\yii2shop\\'
+    'PHP_SELF' => 'E:\\server\\WWW\\yii2shop\\yii2shop\\yii'
+    'SCRIPT_NAME' => 'E:\\server\\WWW\\yii2shop\\yii2shop\\yii'
+    'SCRIPT_FILENAME' => 'E:\\server\\WWW\\yii2shop\\yii2shop\\yii'
+    'PATH_TRANSLATED' => 'E:\\server\\WWW\\yii2shop\\yii2shop\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1498266420.872
+    'REQUEST_TIME' => 1498266420
+    'argv' => [
+        0 => 'E:\\server\\WWW\\yii2shop\\yii2shop\\yii'
+        1 => 'migreat/table'
+        2 => 'table_cart_atble'
+    ]
+    'argc' => 3
+]
+2017-06-24 01:07:13 [-][-][-][error][yii\console\UnknownCommandException] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "migerate/table".' in E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('migerate/table', Array)
+#1 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('migerate/table', Array)
+#2 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\base\Application.php(380): yii\console\Application->handleRequest(Object(yii\console\Request))
+#3 E:\server\WWW\yii2shop\yii2shop\yii(27): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\console\UnknownCommandException' with message 'Unknown command "migerate/table".' in E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\console\Application.php:183
+Stack trace:
+#0 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('migerate/table', Array)
+#1 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\base\Application.php(380): yii\console\Application->handleRequest(Object(yii\console\Request))
+#2 E:\server\WWW\yii2shop\yii2shop\yii(27): yii\base\Application->run()
+#3 {main}
+2017-06-24 01:07:13 [-][-][-][info][application] $_SERVER = [
+    'LOCALAPPDATA' => 'C:\\Users\\Administrator\\AppData\\Local'
+    'PHP_COMMAND' => 'php.exe'
+    'PROCESSOR_LEVEL' => '6'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'PROMPT' => '$P$G'
+    'USERDOMAIN' => 'PC201702091939'
+    'LOGONSERVER' => '\\\\PC201702091939'
+    'SESSIONNAME' => 'Console'
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PSModulePath' => 'C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\;E:\\server\\An_Zhuang\\SVN\\svn_fu_wu_qi\\PowerShellModules'
+    'SystemDrive' => 'C:'
+    'APPDATA' => 'C:\\Users\\Administrator\\AppData\\Roaming'
+    'USERNAME' => 'Administrator'
+    'windows_tracing_logfile' => 'C:\\BVTBin\\Tests\\installpackage\\csilogfile.log'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'VISUALSVN_SERVER' => 'E:\\server\\An_Zhuang\\SVN\\svn_fu_wu_qi\\'
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files'
+    'Path' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;E:\\TortoiseSVN\\bin;E:\\server\\mysql\\bin;C:\\;rogram Files\\TortoiseGit\\bin;E:\\server\\安装软件\\SVN\\Git_lu_jin\\Git\\cmd;;E:\\server\\An_Zhuang\\SVN\\Git_lu_jin\\Git\\Git\\cmd;E:\\server\\An_Zhuang\\SVN\\svn_fu_wu_qi\\bin;E:\\server\\An_Zhuang\\redis\\windows\\redisbin64.rar.Win_lujing;C:\\ProgramData\\ComposerSetup\\bin;E:\\phpStudy\\php\\php-5.6.27-nts\\php;E:\\phpStudy\\php\\php-5.6.27-nts;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'OS' => 'Windows_NT'
+    'PROCESSOR_ARCHITEW6432' => 'AMD64'
+    'windows_tracing_flags' => '3'
+    'COMPUTERNAME' => 'PC201702091939'
+    'PROCESSOR_REVISION' => '3a09'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'DEVMGR_SHOW_DETAILS' => '1'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramW6432' => 'C:\\Program Files'
+    'HOMEPATH' => '\\Users\\Administrator'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'HOMEDRIVE' => 'C:'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 58 Stepping 9, GenuineIntel'
+    'USERPROFILE' => 'C:\\Users\\Administrator'
+    'TMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'ProgramFiles' => 'C:\\Program Files (x86)'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'windir' => 'C:\\Windows'
+    'YII_PATH' => 'E:\\server\\WWW\\yii2shop\\yii2shop\\'
+    'PHP_SELF' => 'E:\\server\\WWW\\yii2shop\\yii2shop\\yii'
+    'SCRIPT_NAME' => 'E:\\server\\WWW\\yii2shop\\yii2shop\\yii'
+    'SCRIPT_FILENAME' => 'E:\\server\\WWW\\yii2shop\\yii2shop\\yii'
+    'PATH_TRANSLATED' => 'E:\\server\\WWW\\yii2shop\\yii2shop\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1498266433.3197
+    'REQUEST_TIME' => 1498266433
+    'argv' => [
+        0 => 'E:\\server\\WWW\\yii2shop\\yii2shop\\yii'
+        1 => 'migerate/table'
+        2 => 'table_cart_atble'
+    ]
+    'argc' => 3
+]
+2017-06-24 01:07:57 [-][-][-][error][yii\console\UnknownCommandException] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: migrate/table' in E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\base\Controller.php:127
+Stack trace:
+#0 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\console\Controller.php(128): yii\base\Controller->runAction('table', Array)
+#1 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\base\Module.php(523): yii\console\Controller->runAction('table', Array)
+#2 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('migrate/table', Array)
+#3 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('migrate/table', Array)
+#4 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\base\Application.php(380): yii\console\Application->handleRequest(Object(yii\console\Request))
+#5 E:\server\WWW\yii2shop\yii2shop\yii(27): yii\base\Application->run()
+#6 {main}
+
+Next exception 'yii\console\UnknownCommandException' with message 'Unknown command "migrate/table".' in E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\console\Application.php:183
+Stack trace:
+#0 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('migrate/table', Array)
+#1 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\base\Application.php(380): yii\console\Application->handleRequest(Object(yii\console\Request))
+#2 E:\server\WWW\yii2shop\yii2shop\yii(27): yii\base\Application->run()
+#3 {main}
+2017-06-24 01:07:57 [-][-][-][info][application] $_SERVER = [
+    'LOCALAPPDATA' => 'C:\\Users\\Administrator\\AppData\\Local'
+    'PHP_COMMAND' => 'php.exe'
+    'PROCESSOR_LEVEL' => '6'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'PROMPT' => '$P$G'
+    'USERDOMAIN' => 'PC201702091939'
+    'LOGONSERVER' => '\\\\PC201702091939'
+    'SESSIONNAME' => 'Console'
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PSModulePath' => 'C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\;E:\\server\\An_Zhuang\\SVN\\svn_fu_wu_qi\\PowerShellModules'
+    'SystemDrive' => 'C:'
+    'APPDATA' => 'C:\\Users\\Administrator\\AppData\\Roaming'
+    'USERNAME' => 'Administrator'
+    'windows_tracing_logfile' => 'C:\\BVTBin\\Tests\\installpackage\\csilogfile.log'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'VISUALSVN_SERVER' => 'E:\\server\\An_Zhuang\\SVN\\svn_fu_wu_qi\\'
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files'
+    'Path' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;E:\\TortoiseSVN\\bin;E:\\server\\mysql\\bin;C:\\;rogram Files\\TortoiseGit\\bin;E:\\server\\安装软件\\SVN\\Git_lu_jin\\Git\\cmd;;E:\\server\\An_Zhuang\\SVN\\Git_lu_jin\\Git\\Git\\cmd;E:\\server\\An_Zhuang\\SVN\\svn_fu_wu_qi\\bin;E:\\server\\An_Zhuang\\redis\\windows\\redisbin64.rar.Win_lujing;C:\\ProgramData\\ComposerSetup\\bin;E:\\phpStudy\\php\\php-5.6.27-nts\\php;E:\\phpStudy\\php\\php-5.6.27-nts;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'OS' => 'Windows_NT'
+    'PROCESSOR_ARCHITEW6432' => 'AMD64'
+    'windows_tracing_flags' => '3'
+    'COMPUTERNAME' => 'PC201702091939'
+    'PROCESSOR_REVISION' => '3a09'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'DEVMGR_SHOW_DETAILS' => '1'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramW6432' => 'C:\\Program Files'
+    'HOMEPATH' => '\\Users\\Administrator'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'HOMEDRIVE' => 'C:'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 58 Stepping 9, GenuineIntel'
+    'USERPROFILE' => 'C:\\Users\\Administrator'
+    'TMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'ProgramFiles' => 'C:\\Program Files (x86)'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'windir' => 'C:\\Windows'
+    'YII_PATH' => 'E:\\server\\WWW\\yii2shop\\yii2shop\\'
+    'PHP_SELF' => 'E:\\server\\WWW\\yii2shop\\yii2shop\\yii'
+    'SCRIPT_NAME' => 'E:\\server\\WWW\\yii2shop\\yii2shop\\yii'
+    'SCRIPT_FILENAME' => 'E:\\server\\WWW\\yii2shop\\yii2shop\\yii'
+    'PATH_TRANSLATED' => 'E:\\server\\WWW\\yii2shop\\yii2shop\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1498266477.1953
+    'REQUEST_TIME' => 1498266477
+    'argv' => [
+        0 => 'E:\\server\\WWW\\yii2shop\\yii2shop\\yii'
+        1 => 'migrate/table'
+        2 => 'table_cart_atble'
+    ]
+    'argc' => 3
+]
+2017-06-24 01:09:18 [-][-][-][error][yii\console\UnknownCommandException] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "migrate\table".' in E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('migrate\\table', Array)
+#1 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('migrate\\table', Array)
+#2 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\base\Application.php(380): yii\console\Application->handleRequest(Object(yii\console\Request))
+#3 E:\server\WWW\yii2shop\yii2shop\yii(27): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\console\UnknownCommandException' with message 'Unknown command "migrate\table".' in E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\console\Application.php:183
+Stack trace:
+#0 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('migrate\\table', Array)
+#1 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\base\Application.php(380): yii\console\Application->handleRequest(Object(yii\console\Request))
+#2 E:\server\WWW\yii2shop\yii2shop\yii(27): yii\base\Application->run()
+#3 {main}
+2017-06-24 01:09:18 [-][-][-][info][application] $_SERVER = [
+    'LOCALAPPDATA' => 'C:\\Users\\Administrator\\AppData\\Local'
+    'PHP_COMMAND' => 'php.exe'
+    'PROCESSOR_LEVEL' => '6'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'PROMPT' => '$P$G'
+    'USERDOMAIN' => 'PC201702091939'
+    'LOGONSERVER' => '\\\\PC201702091939'
+    'SESSIONNAME' => 'Console'
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PSModulePath' => 'C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\;E:\\server\\An_Zhuang\\SVN\\svn_fu_wu_qi\\PowerShellModules'
+    'SystemDrive' => 'C:'
+    'APPDATA' => 'C:\\Users\\Administrator\\AppData\\Roaming'
+    'USERNAME' => 'Administrator'
+    'windows_tracing_logfile' => 'C:\\BVTBin\\Tests\\installpackage\\csilogfile.log'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'VISUALSVN_SERVER' => 'E:\\server\\An_Zhuang\\SVN\\svn_fu_wu_qi\\'
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files'
+    'Path' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;E:\\TortoiseSVN\\bin;E:\\server\\mysql\\bin;C:\\;rogram Files\\TortoiseGit\\bin;E:\\server\\安装软件\\SVN\\Git_lu_jin\\Git\\cmd;;E:\\server\\An_Zhuang\\SVN\\Git_lu_jin\\Git\\Git\\cmd;E:\\server\\An_Zhuang\\SVN\\svn_fu_wu_qi\\bin;E:\\server\\An_Zhuang\\redis\\windows\\redisbin64.rar.Win_lujing;C:\\ProgramData\\ComposerSetup\\bin;E:\\phpStudy\\php\\php-5.6.27-nts\\php;E:\\phpStudy\\php\\php-5.6.27-nts;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'OS' => 'Windows_NT'
+    'PROCESSOR_ARCHITEW6432' => 'AMD64'
+    'windows_tracing_flags' => '3'
+    'COMPUTERNAME' => 'PC201702091939'
+    'PROCESSOR_REVISION' => '3a09'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'DEVMGR_SHOW_DETAILS' => '1'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramW6432' => 'C:\\Program Files'
+    'HOMEPATH' => '\\Users\\Administrator'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'HOMEDRIVE' => 'C:'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 58 Stepping 9, GenuineIntel'
+    'USERPROFILE' => 'C:\\Users\\Administrator'
+    'TMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'ProgramFiles' => 'C:\\Program Files (x86)'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'windir' => 'C:\\Windows'
+    'YII_PATH' => 'E:\\server\\WWW\\yii2shop\\yii2shop\\'
+    'PHP_SELF' => 'E:\\server\\WWW\\yii2shop\\yii2shop\\yii'
+    'SCRIPT_NAME' => 'E:\\server\\WWW\\yii2shop\\yii2shop\\yii'
+    'SCRIPT_FILENAME' => 'E:\\server\\WWW\\yii2shop\\yii2shop\\yii'
+    'PATH_TRANSLATED' => 'E:\\server\\WWW\\yii2shop\\yii2shop\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1498266558.6099
+    'REQUEST_TIME' => 1498266558
+    'argv' => [
+        0 => 'E:\\server\\WWW\\yii2shop\\yii2shop\\yii'
+        1 => 'migrate\\table'
+        2 => 'table_cart_atble'
+    ]
+    'argc' => 3
+]
+2017-06-24 01:21:13 [-][-][-][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[HY000] [2002] 由于目标计算机积极拒绝，无法连接。
+' in E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\db\Connection.php:630
+Stack trace:
+#0 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\db\Connection.php(630): PDO->__construct('mysql:host=127....', 'root', 'root', NULL)
+#1 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\db\Connection.php(563): yii\db\Connection->createPdoInstance()
+#2 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\db\Connection.php(896): yii\db\Connection->open()
+#3 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\db\Connection.php(883): yii\db\Connection->getMasterPdo()
+#4 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\db\Command.php(219): yii\db\Connection->getSlavePdo()
+#5 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\db\Command.php(896): yii\db\Command->prepare(true)
+#6 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\db\Command.php(362): yii\db\Command->queryInternal('fetchAll', NULL)
+#7 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\db\mysql\Schema.php(199): yii\db\Command->queryAll()
+#8 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\db\mysql\Schema.php(98): yii\db\mysql\Schema->findColumns(Object(yii\db\TableSchema))
+#9 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\db\Schema.php(152): yii\db\mysql\Schema->loadTableSchema('migration')
+#10 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\console\controllers\MigrateController.php(199): yii\db\Schema->getTableSchema('{{%migration}}', true)
+#11 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(774): yii\console\controllers\MigrateController->getMigrationHistory(NULL)
+#12 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(138): yii\console\controllers\BaseMigrateController->getNewMigrations()
+#13 [internal function]: yii\console\controllers\BaseMigrateController->actionUp('up')
+#14 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#15 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#16 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\console\Controller.php(128): yii\base\Controller->runAction('', Array)
+#17 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\base\Module.php(523): yii\console\Controller->runAction('', Array)
+#18 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('migrate', Array)
+#19 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('migrate', Array)
+#20 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\base\Application.php(380): yii\console\Application->handleRequest(Object(yii\console\Request))
+#21 E:\server\WWW\yii2shop\yii2shop\yii(27): yii\base\Application->run()
+#22 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[HY000] [2002] 由于目标计算机积极拒绝，无法连接。
+' in E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\db\Connection.php:568
+Stack trace:
+#0 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\db\Connection.php(896): yii\db\Connection->open()
+#1 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\db\Connection.php(883): yii\db\Connection->getMasterPdo()
+#2 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\db\Command.php(219): yii\db\Connection->getSlavePdo()
+#3 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\db\Command.php(896): yii\db\Command->prepare(true)
+#4 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\db\Command.php(362): yii\db\Command->queryInternal('fetchAll', NULL)
+#5 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\db\mysql\Schema.php(199): yii\db\Command->queryAll()
+#6 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\db\mysql\Schema.php(98): yii\db\mysql\Schema->findColumns(Object(yii\db\TableSchema))
+#7 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\db\Schema.php(152): yii\db\mysql\Schema->loadTableSchema('migration')
+#8 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\console\controllers\MigrateController.php(199): yii\db\Schema->getTableSchema('{{%migration}}', true)
+#9 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(774): yii\console\controllers\MigrateController->getMigrationHistory(NULL)
+#10 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(138): yii\console\controllers\BaseMigrateController->getNewMigrations()
+#11 [internal function]: yii\console\controllers\BaseMigrateController->actionUp('up')
+#12 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#13 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#14 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\console\Controller.php(128): yii\base\Controller->runAction('', Array)
+#15 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\base\Module.php(523): yii\console\Controller->runAction('', Array)
+#16 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('migrate', Array)
+#17 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('migrate', Array)
+#18 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\base\Application.php(380): yii\console\Application->handleRequest(Object(yii\console\Request))
+#19 E:\server\WWW\yii2shop\yii2shop\yii(27): yii\base\Application->run()
+#20 {main}
+Additional Information:
+
+2017-06-24 01:21:12 [-][-][-][info][application] $_SERVER = [
+    'LOCALAPPDATA' => 'C:\\Users\\Administrator\\AppData\\Local'
+    'PHP_COMMAND' => 'php.exe'
+    'PROCESSOR_LEVEL' => '6'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'PROMPT' => '$P$G'
+    'USERDOMAIN' => 'PC201702091939'
+    'LOGONSERVER' => '\\\\PC201702091939'
+    'SESSIONNAME' => 'Console'
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PSModulePath' => 'C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\;E:\\server\\An_Zhuang\\SVN\\svn_fu_wu_qi\\PowerShellModules'
+    'SystemDrive' => 'C:'
+    'APPDATA' => 'C:\\Users\\Administrator\\AppData\\Roaming'
+    'USERNAME' => 'Administrator'
+    'windows_tracing_logfile' => 'C:\\BVTBin\\Tests\\installpackage\\csilogfile.log'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'VISUALSVN_SERVER' => 'E:\\server\\An_Zhuang\\SVN\\svn_fu_wu_qi\\'
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files'
+    'Path' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;E:\\TortoiseSVN\\bin;E:\\server\\mysql\\bin;C:\\;rogram Files\\TortoiseGit\\bin;E:\\server\\安装软件\\SVN\\Git_lu_jin\\Git\\cmd;;E:\\server\\An_Zhuang\\SVN\\Git_lu_jin\\Git\\Git\\cmd;E:\\server\\An_Zhuang\\SVN\\svn_fu_wu_qi\\bin;E:\\server\\An_Zhuang\\redis\\windows\\redisbin64.rar.Win_lujing;C:\\ProgramData\\ComposerSetup\\bin;E:\\phpStudy\\php\\php-5.6.27-nts\\php;E:\\phpStudy\\php\\php-5.6.27-nts;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'OS' => 'Windows_NT'
+    'PROCESSOR_ARCHITEW6432' => 'AMD64'
+    'windows_tracing_flags' => '3'
+    'COMPUTERNAME' => 'PC201702091939'
+    'PROCESSOR_REVISION' => '3a09'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'DEVMGR_SHOW_DETAILS' => '1'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramW6432' => 'C:\\Program Files'
+    'HOMEPATH' => '\\Users\\Administrator'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'HOMEDRIVE' => 'C:'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 58 Stepping 9, GenuineIntel'
+    'USERPROFILE' => 'C:\\Users\\Administrator'
+    'TMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'ProgramFiles' => 'C:\\Program Files (x86)'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'windir' => 'C:\\Windows'
+    'YII_PATH' => 'E:\\server\\WWW\\yii2shop\\yii2shop\\'
+    'PHP_SELF' => 'E:\\server\\WWW\\yii2shop\\yii2shop\\yii'
+    'SCRIPT_NAME' => 'E:\\server\\WWW\\yii2shop\\yii2shop\\yii'
+    'SCRIPT_FILENAME' => 'E:\\server\\WWW\\yii2shop\\yii2shop\\yii'
+    'PATH_TRANSLATED' => 'E:\\server\\WWW\\yii2shop\\yii2shop\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1498267272.5707
+    'REQUEST_TIME' => 1498267272
+    'argv' => [
+        0 => 'E:\\server\\WWW\\yii2shop\\yii2shop\\yii'
+        1 => 'migrate'
+        2 => 'up'
+    ]
+    'argc' => 3
+]
+2017-06-26 01:29:49 [-][-][-][error][yii\console\UnknownCommandException] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "migerate".' in E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('migerate', Array)
+#1 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('migerate', Array)
+#2 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\base\Application.php(380): yii\console\Application->handleRequest(Object(yii\console\Request))
+#3 E:\server\WWW\yii2shop\yii2shop\yii(27): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\console\UnknownCommandException' with message 'Unknown command "migerate".' in E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\console\Application.php:183
+Stack trace:
+#0 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('migerate', Array)
+#1 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\base\Application.php(380): yii\console\Application->handleRequest(Object(yii\console\Request))
+#2 E:\server\WWW\yii2shop\yii2shop\yii(27): yii\base\Application->run()
+#3 {main}
+2017-06-26 01:29:49 [-][-][-][info][application] $_SERVER = [
+    'LOCALAPPDATA' => 'C:\\Users\\Administrator\\AppData\\Local'
+    'PHP_COMMAND' => 'php.exe'
+    'PROCESSOR_LEVEL' => '6'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'PROMPT' => '$P$G'
+    'USERDOMAIN' => 'PC201702091939'
+    'LOGONSERVER' => '\\\\PC201702091939'
+    'SESSIONNAME' => 'Console'
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PSModulePath' => 'C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\;E:\\server\\An_Zhuang\\SVN\\svn_fu_wu_qi\\PowerShellModules'
+    'SystemDrive' => 'C:'
+    'APPDATA' => 'C:\\Users\\Administrator\\AppData\\Roaming'
+    'USERNAME' => 'Administrator'
+    'windows_tracing_logfile' => 'C:\\BVTBin\\Tests\\installpackage\\csilogfile.log'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'VISUALSVN_SERVER' => 'E:\\server\\An_Zhuang\\SVN\\svn_fu_wu_qi\\'
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files'
+    'Path' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;E:\\TortoiseSVN\\bin;E:\\server\\mysql\\bin;C:\\;rogram Files\\TortoiseGit\\bin;E:\\server\\安装软件\\SVN\\Git_lu_jin\\Git\\cmd;;E:\\server\\An_Zhuang\\SVN\\Git_lu_jin\\Git\\Git\\cmd;E:\\server\\An_Zhuang\\SVN\\svn_fu_wu_qi\\bin;E:\\server\\An_Zhuang\\redis\\windows\\redisbin64.rar.Win_lujing;C:\\ProgramData\\ComposerSetup\\bin;E:\\phpStudy\\php\\php-5.6.27-nts\\php;E:\\phpStudy\\php\\php-5.6.27-nts;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'OS' => 'Windows_NT'
+    'PROCESSOR_ARCHITEW6432' => 'AMD64'
+    'windows_tracing_flags' => '3'
+    'COMPUTERNAME' => 'PC201702091939'
+    'PROCESSOR_REVISION' => '3a09'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'DEVMGR_SHOW_DETAILS' => '1'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramW6432' => 'C:\\Program Files'
+    'HOMEPATH' => '\\Users\\Administrator'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'HOMEDRIVE' => 'C:'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 58 Stepping 9, GenuineIntel'
+    'USERPROFILE' => 'C:\\Users\\Administrator'
+    'TMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'ProgramFiles' => 'C:\\Program Files (x86)'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'windir' => 'C:\\Windows'
+    'YII_PATH' => 'E:\\server\\WWW\\yii2shop\\yii2shop\\'
+    'PHP_SELF' => 'E:\\server\\WWW\\yii2shop\\yii2shop\\yii'
+    'SCRIPT_NAME' => 'E:\\server\\WWW\\yii2shop\\yii2shop\\yii'
+    'SCRIPT_FILENAME' => 'E:\\server\\WWW\\yii2shop\\yii2shop\\yii'
+    'PATH_TRANSLATED' => 'E:\\server\\WWW\\yii2shop\\yii2shop\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1498440589.8319
+    'REQUEST_TIME' => 1498440589
+    'argv' => [
+        0 => 'E:\\server\\WWW\\yii2shop\\yii2shop\\yii'
+        1 => 'migerate'
+        2 => 'up'
+    ]
+    'argc' => 3
+]
+2017-06-26 01:30:15 [-][-][-][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1166 Incorrect column name 'amount	'' in E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\db\Command.php:846
+Stack trace:
+#0 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\db\Command.php(846): PDOStatement->execute()
+#1 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\db\Migration.php(274): yii\db\Command->execute()
+#2 E:\server\WWW\yii2shop\yii2shop\console\migrations\m170626_012135_create_order_goods_table.php(23): yii\db\Migration->createTable('order_goods', Array)
+#3 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(654): m170626_012135_create_order_goods_table->up()
+#4 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(166): yii\console\controllers\BaseMigrateController->migrateUp('m170626_012135_...')
+#5 [internal function]: yii\console\controllers\BaseMigrateController->actionUp('up')
+#6 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#7 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#8 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\console\Controller.php(128): yii\base\Controller->runAction('', Array)
+#9 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\base\Module.php(523): yii\console\Controller->runAction('', Array)
+#10 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('migrate', Array)
+#11 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('migrate', Array)
+#12 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\base\Application.php(380): yii\console\Application->handleRequest(Object(yii\console\Request))
+#13 E:\server\WWW\yii2shop\yii2shop\yii(27): yii\base\Application->run()
+#14 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[42000]: Syntax error or access violation: 1166 Incorrect column name 'amount	'
+The SQL being executed was: CREATE TABLE `order_goods` (
+	`id` int(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+	`order_id` int(11) COMMENT '璁㈠崟id',
+	`goods_id` int(11) COMMENT '鍟嗗搧id',
+	`goods_name` varchar(255) COMMENT '鍟嗗搧鍚嶇О',
+	`logo` varchar(255) COMMENT '鍥剧墖',
+	`amount	` int(11) COMMENT '鏁伴噺',
+	`total` decimal(10,0) COMMENT '灏忚'
+)' in E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\db\Schema.php:636
+Stack trace:
+#0 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\db\Command.php(856): yii\db\Schema->convertException(Object(PDOException), 'CREATE TABLE `o...')
+#1 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\db\Migration.php(274): yii\db\Command->execute()
+#2 E:\server\WWW\yii2shop\yii2shop\console\migrations\m170626_012135_create_order_goods_table.php(23): yii\db\Migration->createTable('order_goods', Array)
+#3 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(654): m170626_012135_create_order_goods_table->up()
+#4 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(166): yii\console\controllers\BaseMigrateController->migrateUp('m170626_012135_...')
+#5 [internal function]: yii\console\controllers\BaseMigrateController->actionUp('up')
+#6 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#7 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#8 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\console\Controller.php(128): yii\base\Controller->runAction('', Array)
+#9 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\base\Module.php(523): yii\console\Controller->runAction('', Array)
+#10 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('migrate', Array)
+#11 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('migrate', Array)
+#12 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\base\Application.php(380): yii\console\Application->handleRequest(Object(yii\console\Request))
+#13 E:\server\WWW\yii2shop\yii2shop\yii(27): yii\base\Application->run()
+#14 {main}
+Additional Information:
+Array
+(
+    [0] => 42000
+    [1] => 1166
+    [2] => Incorrect column name 'amount	'
+)
+
+2017-06-26 01:30:13 [-][-][-][info][application] $_SERVER = [
+    'LOCALAPPDATA' => 'C:\\Users\\Administrator\\AppData\\Local'
+    'PHP_COMMAND' => 'php.exe'
+    'PROCESSOR_LEVEL' => '6'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'PROMPT' => '$P$G'
+    'USERDOMAIN' => 'PC201702091939'
+    'LOGONSERVER' => '\\\\PC201702091939'
+    'SESSIONNAME' => 'Console'
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PSModulePath' => 'C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\;E:\\server\\An_Zhuang\\SVN\\svn_fu_wu_qi\\PowerShellModules'
+    'SystemDrive' => 'C:'
+    'APPDATA' => 'C:\\Users\\Administrator\\AppData\\Roaming'
+    'USERNAME' => 'Administrator'
+    'windows_tracing_logfile' => 'C:\\BVTBin\\Tests\\installpackage\\csilogfile.log'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'VISUALSVN_SERVER' => 'E:\\server\\An_Zhuang\\SVN\\svn_fu_wu_qi\\'
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files'
+    'Path' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;E:\\TortoiseSVN\\bin;E:\\server\\mysql\\bin;C:\\;rogram Files\\TortoiseGit\\bin;E:\\server\\安装软件\\SVN\\Git_lu_jin\\Git\\cmd;;E:\\server\\An_Zhuang\\SVN\\Git_lu_jin\\Git\\Git\\cmd;E:\\server\\An_Zhuang\\SVN\\svn_fu_wu_qi\\bin;E:\\server\\An_Zhuang\\redis\\windows\\redisbin64.rar.Win_lujing;C:\\ProgramData\\ComposerSetup\\bin;E:\\phpStudy\\php\\php-5.6.27-nts\\php;E:\\phpStudy\\php\\php-5.6.27-nts;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'OS' => 'Windows_NT'
+    'PROCESSOR_ARCHITEW6432' => 'AMD64'
+    'windows_tracing_flags' => '3'
+    'COMPUTERNAME' => 'PC201702091939'
+    'PROCESSOR_REVISION' => '3a09'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'DEVMGR_SHOW_DETAILS' => '1'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramW6432' => 'C:\\Program Files'
+    'HOMEPATH' => '\\Users\\Administrator'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'HOMEDRIVE' => 'C:'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 58 Stepping 9, GenuineIntel'
+    'USERPROFILE' => 'C:\\Users\\Administrator'
+    'TMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'ProgramFiles' => 'C:\\Program Files (x86)'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'windir' => 'C:\\Windows'
+    'YII_PATH' => 'E:\\server\\WWW\\yii2shop\\yii2shop\\'
+    'PHP_SELF' => 'E:\\server\\WWW\\yii2shop\\yii2shop\\yii'
+    'SCRIPT_NAME' => 'E:\\server\\WWW\\yii2shop\\yii2shop\\yii'
+    'SCRIPT_FILENAME' => 'E:\\server\\WWW\\yii2shop\\yii2shop\\yii'
+    'PATH_TRANSLATED' => 'E:\\server\\WWW\\yii2shop\\yii2shop\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1498440613.5232
+    'REQUEST_TIME' => 1498440613
+    'argv' => [
+        0 => 'E:\\server\\WWW\\yii2shop\\yii2shop\\yii'
+        1 => 'migrate'
+        2 => 'up'
+    ]
+    'argc' => 3
+]
+2017-06-26 01:35:37 [-][-][-][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1166 Incorrect column name ''' in E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\db\Command.php:846
+Stack trace:
+#0 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\db\Command.php(846): PDOStatement->execute()
+#1 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\db\Migration.php(274): yii\db\Command->execute()
+#2 E:\server\WWW\yii2shop\yii2shop\console\migrations\m170626_012135_create_order_goods_table.php(23): yii\db\Migration->createTable('order_goods', Array)
+#3 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(654): m170626_012135_create_order_goods_table->up()
+#4 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(166): yii\console\controllers\BaseMigrateController->migrateUp('m170626_012135_...')
+#5 [internal function]: yii\console\controllers\BaseMigrateController->actionUp('up')
+#6 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#7 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#8 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\console\Controller.php(128): yii\base\Controller->runAction('', Array)
+#9 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\base\Module.php(523): yii\console\Controller->runAction('', Array)
+#10 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('migrate', Array)
+#11 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('migrate', Array)
+#12 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\base\Application.php(380): yii\console\Application->handleRequest(Object(yii\console\Request))
+#13 E:\server\WWW\yii2shop\yii2shop\yii(27): yii\base\Application->run()
+#14 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[42000]: Syntax error or access violation: 1166 Incorrect column name ''
+The SQL being executed was: CREATE TABLE `order_goods` (
+	`id` int(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+	`order_id` int(11) COMMENT '璁㈠崟id',
+	`goods_id` int(11) COMMENT '鍟嗗搧id',
+	`goods_name` varchar(255) COMMENT '鍟嗗搧鍚嶇О',
+	`logo` varchar(255) COMMENT '鍥剧墖',
+	`` int(11) COMMENT '鏁伴噺',
+	`total` decimal(10,0) COMMENT '灏忚'
+)' in E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\db\Schema.php:636
+Stack trace:
+#0 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\db\Command.php(856): yii\db\Schema->convertException(Object(PDOException), 'CREATE TABLE `o...')
+#1 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\db\Migration.php(274): yii\db\Command->execute()
+#2 E:\server\WWW\yii2shop\yii2shop\console\migrations\m170626_012135_create_order_goods_table.php(23): yii\db\Migration->createTable('order_goods', Array)
+#3 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(654): m170626_012135_create_order_goods_table->up()
+#4 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(166): yii\console\controllers\BaseMigrateController->migrateUp('m170626_012135_...')
+#5 [internal function]: yii\console\controllers\BaseMigrateController->actionUp('up')
+#6 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#7 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#8 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\console\Controller.php(128): yii\base\Controller->runAction('', Array)
+#9 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\base\Module.php(523): yii\console\Controller->runAction('', Array)
+#10 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('migrate', Array)
+#11 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('migrate', Array)
+#12 E:\server\WWW\yii2shop\yii2shop\vendor\yiisoft\yii2\base\Application.php(380): yii\console\Application->handleRequest(Object(yii\console\Request))
+#13 E:\server\WWW\yii2shop\yii2shop\yii(27): yii\base\Application->run()
+#14 {main}
+Additional Information:
+Array
+(
+    [0] => 42000
+    [1] => 1166
+    [2] => Incorrect column name ''
+)
+
+2017-06-26 01:35:31 [-][-][-][info][application] $_SERVER = [
+    'LOCALAPPDATA' => 'C:\\Users\\Administrator\\AppData\\Local'
+    'PHP_COMMAND' => 'php.exe'
+    'PROCESSOR_LEVEL' => '6'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'PROMPT' => '$P$G'
+    'USERDOMAIN' => 'PC201702091939'
+    'LOGONSERVER' => '\\\\PC201702091939'
+    'SESSIONNAME' => 'Console'
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PSModulePath' => 'C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\;E:\\server\\An_Zhuang\\SVN\\svn_fu_wu_qi\\PowerShellModules'
+    'SystemDrive' => 'C:'
+    'APPDATA' => 'C:\\Users\\Administrator\\AppData\\Roaming'
+    'USERNAME' => 'Administrator'
+    'windows_tracing_logfile' => 'C:\\BVTBin\\Tests\\installpackage\\csilogfile.log'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'VISUALSVN_SERVER' => 'E:\\server\\An_Zhuang\\SVN\\svn_fu_wu_qi\\'
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files'
+    'Path' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;E:\\TortoiseSVN\\bin;E:\\server\\mysql\\bin;C:\\;rogram Files\\TortoiseGit\\bin;E:\\server\\安装软件\\SVN\\Git_lu_jin\\Git\\cmd;;E:\\server\\An_Zhuang\\SVN\\Git_lu_jin\\Git\\Git\\cmd;E:\\server\\An_Zhuang\\SVN\\svn_fu_wu_qi\\bin;E:\\server\\An_Zhuang\\redis\\windows\\redisbin64.rar.Win_lujing;C:\\ProgramData\\ComposerSetup\\bin;E:\\phpStudy\\php\\php-5.6.27-nts\\php;E:\\phpStudy\\php\\php-5.6.27-nts;C:\\Users\\Administrator\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'OS' => 'Windows_NT'
+    'PROCESSOR_ARCHITEW6432' => 'AMD64'
+    'windows_tracing_flags' => '3'
+    'COMPUTERNAME' => 'PC201702091939'
+    'PROCESSOR_REVISION' => '3a09'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'DEVMGR_SHOW_DETAILS' => '1'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramW6432' => 'C:\\Program Files'
+    'HOMEPATH' => '\\Users\\Administrator'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'HOMEDRIVE' => 'C:'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 58 Stepping 9, GenuineIntel'
+    'USERPROFILE' => 'C:\\Users\\Administrator'
+    'TMP' => 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'ProgramFiles' => 'C:\\Program Files (x86)'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'windir' => 'C:\\Windows'
+    'YII_PATH' => 'E:\\server\\WWW\\yii2shop\\yii2shop\\'
+    'PHP_SELF' => 'E:\\server\\WWW\\yii2shop\\yii2shop\\yii'
+    'SCRIPT_NAME' => 'E:\\server\\WWW\\yii2shop\\yii2shop\\yii'
+    'SCRIPT_FILENAME' => 'E:\\server\\WWW\\yii2shop\\yii2shop\\yii'
+    'PATH_TRANSLATED' => 'E:\\server\\WWW\\yii2shop\\yii2shop\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1498440931.2524
+    'REQUEST_TIME' => 1498440931
+    'argv' => [
+        0 => 'E:\\server\\WWW\\yii2shop\\yii2shop\\yii'
+        1 => 'migrate'
+        2 => 'up'
+    ]
+    'argc' => 3
+]

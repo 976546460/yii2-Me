@@ -1,0 +1,61 @@
+[Wed Jun 28 19:44:16.039 2017] [ 7920] accepting connections
+[Wed Jun 28 20:01:40.129 2017] [ 7176] accepting connections
+[Wed Jun 28 21:27:24.447 2017] [ 7176] caught SIGTERM, shutting down
+[Wed Jun 28 21:27:24.470 2017] [ 7176] shutdown complete
+[Wed Jun 28 21:27:33.116 2017] [ 9776] accepting connections
+[Wed Jun 28 22:23:16.789 2017] [ 9776] caught SIGTERM, shutting down
+[Wed Jun 28 22:23:16.805 2017] [ 9776] shutdown complete
+[Wed Jun 28 22:23:19.342 2017] [ 5324] accepting connections
+[Wed Jun 28 22:27:54.465 2017] [ 5324] caught SIGTERM, shutting down
+[Wed Jun 28 22:27:54.501 2017] [ 5324] shutdown complete
+[Wed Jun 28 22:27:56.717 2017] [10100] accepting connections
+[Wed Jun 28 22:29:52.105 2017] [10100] caught SIGTERM, shutting down
+[Wed Jun 28 22:29:52.117 2017] [10100] shutdown complete
+[Wed Jun 28 22:29:54.451 2017] [ 9296] accepting connections
+------- FATAL: CRASH DUMP -------
+[Wed Jun 28 22:31:31.021 2017] [ 9296]
+
+--- crashed SphinxAPI request dump ---
+AAABGQAAAJcAAAAAAAAAAQAAAAAAAAPoAAAAAAAAAAAAAAAAAAAAAAAAAAbljIXlrZAAAAAAAAAABWdvb2RzAAAA
+AQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPoAAAAC0Bncm91cCBkZXNjAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEq
+--- request dump end ---
+Sphinx 2.0.2-dev (r2922)
+minidump located at:  E:\server\WWW\yii2shop\yii2shop\vendor\coreseek-4.1-win32\var/log/searchd_mysql.pid.9296.02C9EF31.mdmp
+--- 1 active threads ---
+thd 0, proto sphinxapi, state query, command search
+------- CRASH DUMP END -------
+[Wed Jun 28 22:32:43.730 2017] [ 7016] accepting connections
+[Wed Jun 28 22:36:12.050 2017] [ 7016] caught SIGTERM, shutting down
+[Wed Jun 28 22:36:12.086 2017] [ 7016] shutdown complete
+[Wed Jun 28 22:36:13.684 2017] [ 9976] accepting connections
+[Wed Jun 28 22:36:15.433 2017] [ 9976] caught SIGTERM, shutting down
+[Wed Jun 28 22:36:15.440 2017] [ 9976] shutdown complete
+[Wed Jun 28 22:36:17.422 2017] [ 8824] accepting connections
+[Wed Jun 28 22:40:48.504 2017] [ 8824] caught SIGTERM, shutting down
+[Wed Jun 28 22:40:48.524 2017] [ 8824] shutdown complete
+[Wed Jun 28 22:40:49.823 2017] [ 5872] accepting connections
+[Wed Jun 28 22:40:50.822 2017] [ 5872] caught SIGTERM, shutting down
+[Wed Jun 28 22:40:50.876 2017] [ 5872] shutdown complete
+[Wed Jun 28 22:40:52.014 2017] [ 8240] accepting connections
+[Wed Jun 28 22:42:26.160 2017] [ 8240] caught SIGTERM, shutting down
+[Wed Jun 28 22:42:26.189 2017] [ 8240] shutdown complete
+[Wed Jun 28 22:42:28.523 2017] [ 9296] accepting connections
+[Wed Jun 28 22:50:41.967 2017] [ 9296] caught SIGTERM, shutting down
+[Wed Jun 28 22:50:41.982 2017] [ 9296] shutdown complete
+[Wed Jun 28 22:50:43.871 2017] [ 9728] accepting connections
+[Wed Jun 28 22:50:45.371 2017] [ 9728] caught SIGTERM, shutting down
+[Wed Jun 28 22:50:45.375 2017] [ 9728] shutdown complete
+[Wed Jun 28 22:50:46.740 2017] [  860] accepting connections
+[Wed Jun 28 22:51:26.399 2017] [  860] caught SIGTERM, shutting down
+[Wed Jun 28 22:51:26.408 2017] [  860] shutdown complete
+[Wed Jun 28 22:51:56.265 2017] [10012] accepting connections
+[Wed Jun 28 22:53:30.684 2017] [10012] caught SIGTERM, shutting down
+[Wed Jun 28 22:53:30.690 2017] [10012] shutdown complete
+[Wed Jun 28 22:57:21.161 2017] [ 9836] accepting connections
+[Wed Jun 28 23:00:48.629 2017] [ 9836] caught SIGTERM, shutting down
+[Wed Jun 28 23:00:48.648 2017] [ 9836] shutdown complete
+[Wed Jun 28 23:00:56.775 2017] [ 2936] accepting connections
+[Wed Jun 28 23:50:33.490 2017] [ 2936] caught SIGTERM, shutting down
+[Wed Jun 28 23:50:33.518 2017] [ 2936] shutdown complete
+[Wed Jun 28 23:50:41.351 2017] [ 8584] accepting connections
