@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="js/jquery-1.8.3.min.js" type="application/javascript"></script>
+</head>
+<body>
+<table>
+    <tr>
+        <th>名称</th>
+        <th>库存</th>
+        <th>LOGO</th>
+    </tr>
+</table>
+<script>
+   $.getJSON('/api/get-goods-by-brand.html',{brand_id:10},function (data) {
+//       console.debug(data);
+       $(data.result).each(function () {
+           console.debug(this.name);
+           var html='<tr>';
+           html+='<td>'+this.name+'</td>';
+           html+='<td>'+this.sn+'</td>';
+           html+='<td> <img src="'+this.logo+'" width="200px"/> </td>';
+           html+='<tr>';
+           $('table').append(html)
+       })
+   });
+
+</script>
+</body>
+</html>
